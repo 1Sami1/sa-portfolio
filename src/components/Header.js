@@ -1,4 +1,5 @@
-
+import Nav from './Nav'
+import { Link } from 'react-router-dom';
 
 function Header() {
 
@@ -6,10 +7,10 @@ function Header() {
 
 
     return(
-      <header>
-          <h1> 
-              My header
-          </h1>
+      <header className="site-header">
+          <Link to="/"><h1>Logo IMG</h1></Link>
+          <Nav />
+
       </header>  
     );
 
