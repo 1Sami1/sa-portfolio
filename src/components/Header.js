@@ -10,7 +10,6 @@ function Header() {
       <header className="site-header">
           <Link to="/"><h1>Logo IMG</h1></Link>
           <Nav />
-
       </header>  
     );
 

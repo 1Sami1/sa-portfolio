@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from '../src/components/Header'
+import Header from './components/Header'
 import AboutPage from './pages/AboutPage'
 import LandingPage from './pages/LandingPage'
 import ProjectsPage from './pages/ProjectsPage'
@@ -17,9 +17,9 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
-
           </Routes>
       </main>
+      
     </div>
     </BrowserRouter>
   );
