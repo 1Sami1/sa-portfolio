@@ -1,5 +1,6 @@
 import Nav from './Nav'
 import { Link } from 'react-router-dom';
+import logo from '../images/Portfolio Logo.png'
 
 function Header() {
 
@@ -8,7 +9,7 @@ function Header() {
 
     return(
       <header className="site-header">
-          <Link to="/"><h1>Logo IMG</h1></Link>
+          <Link to="/"><img className='site-logo' src={logo} /></Link>
           <Nav />
       </header>  
     );
