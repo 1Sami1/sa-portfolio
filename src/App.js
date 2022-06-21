@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage'
 import ProjectsPage from './pages/ProjectsPage'
 import ContactPage from './pages/ContactPage'
 import bg from '../src/images/bg-image.png'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -13,14 +14,15 @@ function App() {
     <div className="App">
       <Header />
       <main>
-      <Routes>
-          <Route path="/" element={<LandingPage/>} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Routes>
+              <Route path="/" element={<LandingPage/>} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/projects" element={<ProjectsPage />} />
+              <Route path="/contact" element={<ContactPage />} />
           </Routes>
       </main>
-      
+      <Footer />
+     
     </div>
     </BrowserRouter>
   );

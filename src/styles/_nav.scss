@@ -1,5 +1,44 @@
 
 .site-nav{
+    visibility: hidden;
+}
+.site-footer{
+    margin-top: auto;
+}
+.mobile-nav{
+        // margin: 0 auto;
+        // position: absolute;
+        // bottom: 0;
+        display: flex;
+        justify-content: center;
+        
+    .mobile-nav-ul{
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        
+        li{
+            list-style: none;
+            padding: 5px; 
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+
+}
+
+
+
+// Desktop Style
+@media (min-width: 600px) {
+    .mobile-nav{
+        visibility: hidden;
+    }
+    .site-nav{
+        visibility: visible;
     .nav-ul{
         display: flex;
         align-items: center;
@@ -15,4 +54,5 @@
             }
         }
     }
+}
 }
