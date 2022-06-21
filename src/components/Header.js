@@ -9,7 +9,6 @@ function Header() {
 
     return(
       <header className="site-header">
-          <Link to="/"><img className='site-logo' src={logo} /></Link>
           <Nav />
       </header>  
     );

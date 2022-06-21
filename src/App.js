@@ -4,6 +4,7 @@ import AboutPage from './pages/AboutPage'
 import LandingPage from './pages/LandingPage'
 import ProjectsPage from './pages/ProjectsPage'
 import ContactPage from './pages/ContactPage'
+import bg from '../src/images/bg-image.png'
 
 
 function App() {

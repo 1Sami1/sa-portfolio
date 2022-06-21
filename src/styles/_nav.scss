@@ -2,14 +2,16 @@
 .site-nav{
     .nav-ul{
         display: flex;
-        
+        align-items: center;
+        padding: 0;
+        margin: 0;
         li{
             list-style: none;
             padding: 1rem;
             font-family: 'Josefin Sans', sans-serif;
             a{
                 text-decoration: none;
-                color: black;
+                color: white;
             }
         }
     }

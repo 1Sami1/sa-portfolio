@@ -2,7 +2,10 @@ import React from 'react'
 
 function LandingPage() {
   return (
-    <div>LandingPage</div>
+    <div className='lp-wrapper'>
+      <h1 className='hero-text'>Creative Developer</h1>
+
+    </div>
   )
 }
 
