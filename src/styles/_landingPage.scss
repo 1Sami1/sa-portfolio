@@ -1,5 +1,17 @@
+// REMEMBER TO SWITCH THE WHOLE CSS TO MOBILE-FIRST
 
-.hero-text{
+
+.hero-sec{
+    margin-top: 7rem;
+    .hero-text{
     color: white;
+    font-size: 4rem;
     text-align: center;
+}
+.top-bar, .bottom-bar{
+    width: 450px;
+    margin: 0 auto;
+    height: 10px;
+    background-color: #B38B59;
+}
 }
