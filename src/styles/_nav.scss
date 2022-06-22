@@ -3,21 +3,16 @@
     visibility: hidden;
 }
 .site-footer{
-    margin-top: auto;
+    margin-top: 70%;
 }
 .mobile-nav{
-        // margin: 0 auto;
-        // position: absolute;
-        // bottom: 0;
         display: flex;
         justify-content: center;
-        
     .mobile-nav-ul{
         display: flex;
         align-items: center;
         padding: 0;
         margin: 0;
-        
         li{
             list-style: none;
             padding: 5px; 
