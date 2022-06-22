@@ -2,34 +2,20 @@
 .site-nav{
     visibility: hidden;
 }
-.site-footer{
-    margin-top: 70%;
-}
-.mobile-nav{
-        display: flex;
-        justify-content: center;
-    .mobile-nav-ul{
-        display: flex;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-        li{
-            list-style: none;
-            padding: 5px; 
-            a{
-                text-decoration: none;
-                color: white;
-            }
-        }
+.bottom-nav{
+    visibility: visible;
+    color: palevioletred;
+    .bottom-nav-item{
+        font-size: 2rem;
     }
-
 }
+
 
 
 
 // Desktop Style
 @media (min-width: 600px) {
-    .mobile-nav{
+    .bottom-nav{
         visibility: hidden;
     }
     .site-nav{
