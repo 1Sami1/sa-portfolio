@@ -2,12 +2,33 @@
 .site-nav{
     visibility: hidden;
 }
-.bottom-nav{
-    visibility: visible;
-    color: palevioletred;
-    .bottom-nav-item{
-        font-size: 2rem;
-    }
+.bottom-nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    right: 0;
+    background-color: #b28a58;
+    z-index: 1;
+    height: 64px;
+    .bottom-nav-item {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        transition: all 0.3s ease;
+      }
+      .bottom-nav-item :active {
+        background-color: #6593f5;
+        color: white;
+      }
+      .bottom-nav-title{
+        text-decoration: none;
+        color: white;
+      }
 }
 
 

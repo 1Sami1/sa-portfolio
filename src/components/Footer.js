@@ -1,12 +1,10 @@
 import React from 'react'
-import BottomNavigation from 'reactjs-bottom-navigation'
-import 'reactjs-bottom-navigation/dist/index.css'
+import { NavLink } from 'react-router-dom'
 
 function Footer() {
 
   const bottomNavItems =[
-    {title: 'Home',
-     noActiveBg: false},
+    {title: 'Home',},
     {title: 'About'},
     {title: 'Projects'},
     {title: 'contact'}
@@ -14,11 +12,12 @@ function Footer() {
   ]
   return (
     <footer className='site-footer'>
-        <BottomNavigation
-          items={bottomNavItems}
-          selected= {0}
-          onItemClick={(item) => console.log(item)}
-         />
+        <nav className='bottom-nav'>
+          <div className='bottom-nav-item'><NavLink className='bottom-nav-title' tabIndex={1} to="/">Home</NavLink></div>
+          <div className='bottom-nav-item'><NavLink className='bottom-nav-title' tabIndex={2} to="/about">About</NavLink></div>
+          <div className='bottom-nav-item'><NavLink className='bottom-nav-title' tabIndex={3} to="/projects">Projects</NavLink></div>
+          <div className='bottom-nav-item'><NavLink className='bottom-nav-title' tabIndex={4} to="/contact">Contact</NavLink></div>
+        </nav>
     </footer>
   )
 }
