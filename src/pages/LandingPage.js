@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Particles from '../components/Particles';
+
 
 function LandingPage() {
   return (
@@ -7,6 +9,7 @@ function LandingPage() {
         <div className='top-bar'></div>
         <h1 className='hero-text'>Creative Developer</h1>
         <div className='bottom-bar'></div>
+        <Particles />
       </div>
     </div>
   )

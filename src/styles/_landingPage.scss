@@ -2,6 +2,7 @@
 
 .hero-sec{
     padding-bottom: 2rem;
+    z-index: 5;
     .hero-text{
     color: #E0E0E2;
     font-size: 3rem;
@@ -24,6 +25,7 @@
 // Desktop Style
 @media (min-width: 600px) {
     .hero-sec{
+        z-index: 6;
     margin-top: 7rem;
     .hero-text{
     color: #E0E0E2;
