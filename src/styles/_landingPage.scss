@@ -2,6 +2,7 @@
 
 .hero-sec{
     padding-bottom: 2rem;
+    height: 290px;
     z-index: 5;
     .hero-text{
     color: #E0E0E2;
@@ -52,4 +53,12 @@
         }
     }
     
+}
+
+
+
+.scroll-btn{
+    .scroll-arrow{
+        margin: 0 auto;
+    }
 }

@@ -7,7 +7,8 @@ import { useCallback, useMemo } from "react";
 const ParticlesComponent = () => {
     const options = useMemo(() => {
         return{
-            fpsLimit: 120,
+            pauseOnBlur: true,
+            fpsLimit: 60,
             interactivity:{
                 events: {
                     onClick: {
@@ -21,7 +22,7 @@ const ParticlesComponent = () => {
                 },
                 modes: {
                     push: {
-                        quantity: 5,
+                        quantity: 1,
                     },
                     repulse: {
                         distance: 100,
@@ -40,15 +41,23 @@ const ParticlesComponent = () => {
                 },
                 move: {
                     enable: true,
-                    speed: {min: 1, max: 3},
+                    speed: {min: 1, max: 2},
                 },
                 opacity: {
                     value: {min: 0.3, max: 0.9},
                 },
                 size: {
-                    value: {min: 1, max: 3},
+                    value: {min: 1, max: 1},
 
                 },
+            },
+            number: {
+               value:  10,
+               limit: 10,
+               density:{
+                enable: false,
+                area: 200,
+               }
             }
         };
     }, []);
