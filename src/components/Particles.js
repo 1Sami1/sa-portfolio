@@ -35,7 +35,8 @@ const ParticlesComponent = () => {
                 },
                 links: {
                     enable: true,
-                    color : "#E0E0E2"
+                    color : "#E0E0E2",
+                    opacity: 0.3,
                 },
                 move: {
                     enable: true,

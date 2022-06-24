@@ -39,5 +39,17 @@
     background-color: #FF6F59;
 }
 }
+}
 
+@media (min-width: 1290px) {
+    .hero-sec{
+        margin-top: 8.5rem;
+        .hero-text{
+            font-size: 5rem;
+        }
+        .bottom-bar, .top-bar{
+            width: 560px;
+        }
+    }
+    
 }
