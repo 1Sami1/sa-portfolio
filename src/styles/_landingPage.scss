@@ -1,8 +1,9 @@
 
 
 .hero-sec{
-    padding-bottom: 2rem;
-    height: 290px;
+    position: relative;
+    top: 1rem;
+    height: 100vh;
     z-index: 5;
     .hero-text{
     color: #E0E0E2;
@@ -27,7 +28,8 @@
 @media (min-width: 600px) {
     .hero-sec{
         z-index: 6;
-    margin-top: 7rem;
+    position: relative;
+    top: 9rem;
     .hero-text{
     color: #E0E0E2;
     font-size: 4rem;
@@ -44,9 +46,9 @@
 
 @media (min-width: 1290px) {
     .hero-sec{
-        margin-top: 8.5rem;
+        top: 12rem;
         .hero-text{
-            font-size: 5rem;
+            font-size: 5.5rem;
         }
         .bottom-bar, .top-bar{
             width: 560px;
@@ -58,7 +60,77 @@
 
 
 .scroll-btn{
+   display: flex;
+   justify-content: center;
+   scroll-behavior: smooth;
     .scroll-arrow{
-        margin: 0 auto;
+        font-size: 2rem;
+        color: #FF6F59;
+        // bottom arrow animations
+        -moz-animation: bounce 2s infinite;
+         -webkit-animation: bounce 2s infinite;
+         animation: bounce 2s infinite;
     }
 }
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+  // bottom arrow placement
+@media (max-width: 600px) {
+    .scroll-btn{
+        position: relative;
+        bottom: 16rem;
+    }
+}
+@media (min-width: 600px) {
+    .scroll-btn{
+        position: relative;
+        bottom: 9rem;
+    }
+    
+}
+
+// About section
+.about-sec{
+    text-align: center;
+    position: relative;
+    margin-bottom: 10rem;
+    .about-sec-h1{
+        font-size: 2.5rem;
+        color: #E0E0E2;
+    }
+    .about-sec-p{
+        color: #E0E0E2;
+        padding-top: 2rem;
+        font-size: 1.4rem;
+        margin: 2rem;
+        margin-top: 3.5rem;
+        padding: 2rem;
+        background-color: #FF6F59;
+        border-radius: 10px;
+
+    }
+    .about-cta{
+        border: 2px solid #FF6F59;
+        background: none;
+        color: #E0E0E2;
+        border-radius: 5px;
+        margin-top: 1rem;
+        padding: .6rem;
+        font-size: 1rem;
+    }:hover{
+        background-color: #FF6F59;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+}
+

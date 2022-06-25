@@ -11,7 +11,7 @@
     right: 0;
     background-color: #FF6F59;
     z-index: 1;
-    height: 64px;
+    height: 45px;
     .bottom-nav-item {
         flex-grow: 1;
         display: flex;
@@ -22,17 +22,12 @@
         transition: all 0.2s ease;
       }:hover{
         background-color: #2C302E;
-      }
-      .bottom-nav-item :active {
-        background-color: #6593f5;
-        color: white;
+        transition: all 0.2s ease;
       }
       .bottom-nav-title{
         text-decoration: none;
+        font-size: 0.7rem;
         color: white;
-      }:hover{
-        color: #FF6F59;
-        transition: all 0.2s ease;
       }
 }
 
