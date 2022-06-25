@@ -104,9 +104,10 @@
     text-align: center;
     position: relative;
     margin-bottom: 10rem;
-    .about-sec-h1{
+    .about-sec-h2{
         font-size: 2.5rem;
         color: #E0E0E2;
+        margin-bottom: 3rem;
     }
     .about-sec-p{
         color: #E0E0E2;
@@ -115,11 +116,13 @@
         margin: 2rem;
         margin-top: 3.5rem;
         padding: 2rem;
-        background-color: #FF6F59;
+        border: 2px solid #FF6F59;
         border-radius: 10px;
 
     }
-    .about-cta{
+    
+}
+.about-cta{
         border: 2px solid #FF6F59;
         background: none;
         color: #E0E0E2;
@@ -127,10 +130,34 @@
         margin-top: 1rem;
         padding: .6rem;
         font-size: 1rem;
-    }:hover{
+    }.about-cta:hover{
         background-color: #FF6F59;
         cursor: pointer;
-        transition: all 0.2s ease;
+        transition: border-color 0.5s, background-color 0.5s, color 0.5s
     }
+
+// About section Desktop styles
+
+@media (min-width: 600px) {
+    .about-sec{
+       .about-sec-p{
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+       }
+    }
+    
 }
 
+// Featured Work Section 
+
+.work-sec{
+    text-align: center;
+    position: relative;
+    margin-bottom: 10rem;
+    .work-sec-h2{
+        font-size: 2.5rem;
+        color: #E0E0E2;
+        margin-bottom: 3rem;
+    }
+}
