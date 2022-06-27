@@ -1,6 +1,69 @@
+// Mobile Styles
+.card-wrapper{
+    border: 2px solid #FF6F59 ;
+    border-radius: 10px;
+    width: 260px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 43px -4px rgba(224,224,226,0.3);
+    .card-img{
+        padding: 1rem;
+        padding-bottom: 0;
+        .card-preview-pic{
+            width: 200px;
+            border-radius: 3px;
+        } 
+    }
+    .card-info{
+        padding: 1rem;
+        .card-proj-title{
+            color: #E0E0E2;
+            font-size:1.8rem;
+            margin-bottom: 0;
+        }
+        .card-proj-tags{
+            color: #E0E0E2;
+            font-size: 12px;
+            margin-bottom: 2.5rem;
 
+        }
+        .card-proj-p{
+            color: #E0E0E2;
+            font-size: 16px;
+            margin-bottom: 2.5rem;
+        }
+        .card-btn{
+            border: 2px solid #FF6F59;
+            color: #E0E0E2;
+            background: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            padding: .6rem;
+            font-size: .8rem;
+        }.card-btn:hover{
+            background-color: #FF6F59;
+            cursor: pointer;
+            color: #E0E0E2;
+            transition: border-color 0.5s, background-color 0.5s, color 0.5s
 
-
-.card-preview-pic{
-    width: 200px;
+        }
+    }
 }
+
+// Card hover effect
+.card-wrapper:hover{
+    transition: all .35s ease-in-out;
+    transform: scale(1.03);
+}
+
+// Desktop Styles
+
+@media (min-width: 600px) {
+    .card-wrapper{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
