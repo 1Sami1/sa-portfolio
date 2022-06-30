@@ -59,9 +59,23 @@
 
 @media (min-width: 600px) {
     .card-wrapper{
-        width: 100%;
+        width: 550px;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        height: 253px;
+        .card-btn{
+            position: relative;
+            bottom: 2.69rem;
+        }
+        .card-proj-p{
+            position: relative;
+            bottom: .7rem;
+        }
+        .card-img{
+            .card-preview-pic{
+                width: 260px;
+            }
+        }
     }
 }
 
