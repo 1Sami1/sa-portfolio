@@ -4,13 +4,13 @@
     border-radius: 10px;
     width: 260px;
     margin: 0 auto;
-    box-shadow: 0px 0px 43px -4px rgba(224,224,226,0.3);
     .card-img{
         padding: 1rem;
         padding-bottom: 0;
         .card-preview-pic{
-            width: 200px;
+            width: 230px;
             border-radius: 3px;
+            margin: 0 auto;
         } 
     }
     .card-info{
@@ -36,7 +36,6 @@
             color: #E0E0E2;
             background: none;
             border-radius: 5px;
-            margin-top: 1rem;
             padding: .6rem;
             font-size: .8rem;
         }.card-btn:hover{
@@ -50,10 +49,10 @@
 }
 
 // Card hover effect
-.card-wrapper:hover{
-    transition: all .35s ease-in-out;
-    transform: scale(1.03);
-}
+// .card-wrapper:hover{
+//     transition: all .35s ease-in-out;
+//     transform: scale(1.03);
+// }
 
 // Desktop Styles
 
@@ -61,7 +60,7 @@
     .card-wrapper{
         width: 550px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
         height: 253px;
         .card-btn{
             position: relative;
@@ -70,6 +69,7 @@
         .card-proj-p{
             position: relative;
             bottom: .7rem;
+            padding-bottom: 1rem;
         }
         .card-img{
             .card-preview-pic{

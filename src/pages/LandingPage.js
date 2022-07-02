@@ -3,6 +3,7 @@ import Particles from '../components/Particles';
 import {FaArrowDown} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 import ProjectCard from '../components/ProjectCard';
+import Carousel from '../components/Carousel';
 
 
 function LandingPage() {
@@ -27,8 +28,7 @@ function LandingPage() {
       </section>
       <section className='work-sec'>
         <h2 className='work-sec-h2'>Featured Work</h2>
-        <ProjectCard />
-
+        <Carousel />
       </section>
       {/* <Particles /> */}
     </div>
