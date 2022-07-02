@@ -14,16 +14,6 @@ function Carousel() {
     mobileFirst: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 600,
-        settings:{
-          centerMode: true,
-
-        }
-
-      }
-    ]
   };
   return (
     
