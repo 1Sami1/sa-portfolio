@@ -3,9 +3,12 @@ import ProjectCard from '../components/ProjectCard'
 
 function ProjectsPage() {
   return (
-    <div className='proj-wrapper'>
-      <h1 className=''>Projects</h1>
+    <div className='projects-wrapper'>
+      <h1 className='projects-h1'>Projects</h1>
       <section className='projects-sec'>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
         <ProjectCard />
         
 

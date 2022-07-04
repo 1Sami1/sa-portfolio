@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-function Footer() {
+function FooterNav() {
 
   const bottomNavItems =[
     {title: 'Home',},
@@ -22,4 +22,4 @@ function Footer() {
   )
 }
 
-export default Footer
+export default FooterNav

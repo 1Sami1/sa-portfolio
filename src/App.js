@@ -5,7 +5,7 @@ import LandingPage from './pages/LandingPage'
 import ProjectsPage from './pages/ProjectsPage'
 import ContactPage from './pages/ContactPage'
 import bg from '../src/images/bg-image.png'
-import Footer from './components/Footer';
+import FooterNav from './components/FooterNav';
 
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
               <Route path="/contact" element={<ContactPage />} />
           </Routes>
       </main>
-      <Footer />
+      <FooterNav />
      
     </div>
     </BrowserRouter>

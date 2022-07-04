@@ -4,8 +4,13 @@ import { loadSlim } from "tsparticles-slim";
 import { useCallback, useMemo } from "react";
 
 
+
+
 const ParticlesComponent = () => {
+
+
     const options = useMemo(() => {
+
         return{
             pauseOnBlur: true,
             fpsLimit: 60,
@@ -15,18 +20,6 @@ const ParticlesComponent = () => {
                         enable: true,
                         mode: "push",
                     },
-                    onHover: {
-                        enable: true,
-                        mode: "repulse",
-                    },
-                },
-                modes: {
-                    push: {
-                        quantity: 1,
-                    },
-                    repulse: {
-                        distance: 100,
-                    },
                 },
             },
             particles:{
@@ -34,10 +27,9 @@ const ParticlesComponent = () => {
                     value: "#FF6F59"
 
                 },
-                links: {
+                density: {
                     enable: true,
-                    color : "#E0E0E2",
-                    opacity: 0.3,
+                    value_area: 600 ,
                 },
                 move: {
                     enable: true,
@@ -47,7 +39,7 @@ const ParticlesComponent = () => {
                     value: {min: 0.3, max: 0.9},
                 },
                 size: {
-                    value: {min: 1, max: 1},
+                    value: {min: 1, max: 3},
 
                 },
             },
