@@ -6,6 +6,7 @@ import ProjectsPage from './pages/ProjectsPage'
 import ContactPage from './pages/ContactPage'
 import bg from '../src/images/bg-image.png'
 import FooterNav from './components/FooterNav';
+import FooterText from './components/FooterText'
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
           </Routes>
       </main>
       <FooterNav />
+      <FooterText />
+      
      
     </div>
     </BrowserRouter>
