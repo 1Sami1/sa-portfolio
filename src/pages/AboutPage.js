@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Particles from '../components/Particles';
 
 function AboutPage() {
   return (
@@ -9,7 +10,7 @@ function AboutPage() {
       {/* <h3 className='about-ed-h3'>Education</h3> */}
       <h3 className='about-tk-h3'>In My Toolkit</h3>
       <div className='tk-wrapper'>
-        <div>
+        <div className='dev'>
           <h4 className='tk-h4'>Development</h4>
               <ul className='tk-list'>
                 <li className='tk-li'>HTML</li>
@@ -26,7 +27,7 @@ function AboutPage() {
               </ul>
         </div>
         
-        <div>
+        <div className='design'>
           <h4 className='tk-h4'>Design</h4>
         <ul className='tk-list'>
           <li>Adobe XD</li>
@@ -41,7 +42,7 @@ function AboutPage() {
       </div>
       <Link to="/projects"><button className='projects-cta'>See My Work</button></Link>
 
-
+    <Particles />
     </div>
   )
 }

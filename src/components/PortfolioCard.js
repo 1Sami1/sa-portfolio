@@ -1,5 +1,5 @@
 import React from 'react'
-import previewPic from '../images/flimfanSS.png'
+import previewPic from '../images/portfolio-pic.jpeg'
 
 function PortfolioCard() {
   return (
