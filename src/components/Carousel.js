@@ -2,7 +2,9 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import ProjectCard from './ProjectCard';
+import ProjectCard from './FilmfanCard';
+import PortfolioCard from '../components/PortfolioCard'
+import CapstoneCard from '../components/CapstoneCard'
 
 function Carousel() {
   const settings = {
@@ -19,9 +21,8 @@ function Carousel() {
     
       <Slider {...settings}>
         <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        <PortfolioCard />
+        <CapstoneCard />
         
 
       </Slider>

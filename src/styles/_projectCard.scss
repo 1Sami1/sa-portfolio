@@ -25,7 +25,21 @@
             color: #E0E0E2;
             font-size: 12px;
             margin-bottom: 2.5rem;
-
+        }
+        .card-proj-dukes{
+            color: #E0E0E2;
+            font-size: 1.8rem;
+            margin-bottom: 0;
+        }
+        .card-proj-tags-dukes{
+            color: #E0E0E2;
+            font-size: 12px;
+            margin-bottom: 2.5rem;
+        }
+        .card-proj-p-dukes{
+            color: #E0E0E2;
+            font-size: 16px;
+            margin-bottom: 2.5rem;
         }
         .card-proj-p{
             color: #E0E0E2;
@@ -53,7 +67,7 @@
 // .card-wrapper:hover{
 //     transition: all .35s ease-in-out;
 //     transform: scale(1.03);
-// }
+//
 
 // Desktop Styles
 
@@ -67,6 +81,18 @@
             position: relative;
             bottom: 2.69rem;
         }
+        .card-proj-dukes{
+            font-size: 1.6rem;
+            position: relative;
+            bottom: 1.3rem;
+            color: #E0E0E2;
+            margin-bottom: 0;
+        }
+        .card-proj-tags-dukes{
+            position: relative;
+            bottom: 1.3rem;
+            color: #E0E0E2;
+        }
         .card-proj-p{
             position: relative;
             bottom: .7rem;
@@ -77,8 +103,14 @@
                 width: 260px;
             }
         }
+        .card-proj-p-dukes{
+            position: relative;
+            bottom: 2rem;
+            color: #E0E0E2;
+            margin-top: 0;
+            
+        }
     }
 }
-
 
 

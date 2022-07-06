@@ -2,8 +2,9 @@ import React from 'react';
 import Particles from '../components/Particles';
 import {FaArrowDown} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
-import ProjectCard from '../components/ProjectCard';
+import ProjectCard from '../components/FilmfanCard';
 import Carousel from '../components/Carousel';
+
 
 
 function LandingPage() {
@@ -16,9 +17,9 @@ function LandingPage() {
   return (
     <div className='lp-wrapper'>
       <section className='hero-sec'>
-        <div className='top-bar'></div>
+        {/* <div className='top-bar'></div> */}
         <h1 className='hero-text'>Creative Developer</h1>
-        <div className='bottom-bar'></div>
+        {/* <div className='bottom-bar'></div> */}
       </section>
       <a className='scroll-btn' href="/" onClick={scrollBtm}><FaArrowDown className='scroll-arrow' /></a>
       <section className='about-sec'>

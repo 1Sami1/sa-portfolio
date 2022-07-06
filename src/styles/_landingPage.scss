@@ -29,10 +29,10 @@
     .hero-sec{
         z-index: 6;
     position: relative;
-    top: 9rem;
+    top: 12rem;
     .hero-text{
     color: #E0E0E2;
-    font-size: 4rem;
+    font-size: 8rem;
     text-align: center;
 }
 .top-bar, .bottom-bar{
@@ -88,13 +88,13 @@
 @media (max-width: 600px) {
     .scroll-btn{
         position: relative;
-        bottom: 16rem;
+        bottom: 18rem;
     }
 }
 @media (min-width: 600px) {
     .scroll-btn{
         position: relative;
-        bottom: 9rem;
+        bottom: 16rem;
     }
     
 }
