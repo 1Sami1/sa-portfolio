@@ -1,5 +1,7 @@
 import React from 'react'
 import previewPic from '../images/flimfanSS.png'
+import { Link } from 'react-router-dom';
+
 
 function ProjectCard() {
   return (
@@ -13,7 +15,7 @@ function ProjectCard() {
           <p className='card-proj-p'>A movie database website designed 
              to provide users with the latest movie 
              information.</p>
-          <button className='card-btn'>See Project</button>
+             <Link to='/FilmfanDB'><button className='card-btn'>See Project</button></Link>
       </div>
       
 

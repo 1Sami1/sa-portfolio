@@ -6,13 +6,13 @@
 
 
 
-@import 'header';
-@import 'nav';
+@import 'components/header';
+@import 'components/nav';
 @import 'general';
-@import 'landingPage';
-@import 'projectCard';
-@import 'carousel';
-@import 'projectsPage';
-@import 'footerText';
-@import 'aboutPage';
-@import 'contactPage'; 
+@import 'pages/landingPage';
+@import 'components/projectCard';
+@import 'components/carousel';
+@import 'pages/projectsPage';
+@import 'components/footerText';
+@import 'pages/aboutPage';
+@import 'pages/contactPage'; 

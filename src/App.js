@@ -7,9 +7,9 @@ import ContactPage from './pages/ContactPage'
 import bg from '../src/images/bg-image.png'
 import FooterNav from './components/FooterNav';
 import FooterText from './components/FooterText'
-import FilmfanPage from './pages/FilmfanPage';
-import PortfolioPage from './pages/PortfolioPage';
-import CapstonePage from './pages/CapstonePage';
+import FilmfanPage from './pages/SingleProject/FilmfanPage';
+import PortfolioPage from './pages/SingleProject/PortfolioPage';
+import CapstonePage from './pages/SingleProject/CapstonePage';
 
 function App() {
   return (
