@@ -1,0 +1,74 @@
+.contact-wrapper{
+    margin-bottom: 10rem;
+   .contact-h1{
+    color: #E0E0E2;
+        text-shadow: 2px 2px 3px #FF6F59;
+        text-align: center;
+        position: relative;
+        bottom: 6.5rem;
+        font-size: 2.8rem;
+        margin-bottom: 0;
+   } 
+   .contact-p{
+    color: #E0E0E2;
+    font-size: 1.4rem;
+    width: 270px;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid #FF6F59;
+    border-radius: 10px;
+    padding: 2rem;
+   }
+   .email-btn{
+        border: 2px solid #FF6F59;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        background: none;
+        color: #E0E0E2;
+        border-radius: 5px;
+        margin-top: 4rem;
+        padding: .6rem;
+        font-size: 1rem;
+   }.email-btn:hover{
+    background-color: #FF6F59;
+        cursor: pointer;
+        transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+   }
+   .icons-wrapper{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    .social-icon{
+        color: #E0E0E2;
+        padding: 1rem;
+        width: 2em;
+        height: 2em;
+    }.social-icon:hover{
+        color: #FF6F59;
+        transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+    }
+   }
+}
+
+@media(min-width:600px){
+    .contact-wrapper{
+        .contact-h1{
+            bottom: 0;
+            font-size: 3.4rem;
+            margin-bottom: 8rem;
+            margin-top: 8rem;
+        } 
+        .contact-p{
+            color: #E0E0E2;
+            font-size: 1.4rem;
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            border: 3px solid #FF6F59;
+    border-radius: 10px;
+           }
+     }
+     
+}

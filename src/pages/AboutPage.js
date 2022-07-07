@@ -15,6 +15,7 @@ function AboutPage() {
               <ul className='tk-list'>
                 <li className='tk-li'>HTML</li>
                 <li className='tk-li'>CSS</li>
+                
                 <li className='tk-li'>Javascript</li>
                 <li className='tk-li'>PHP</li>
                 <li className='tk-li'>Wordpress</li>
@@ -31,6 +32,7 @@ function AboutPage() {
           <h4 className='tk-h4'>Design</h4>
         <ul className='tk-list'>
           <li>Adobe XD</li>
+          <li>Sass</li>
           <li>Figma</li>
           <li>InVision</li>
           <li>Photoshop</li>
