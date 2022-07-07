@@ -21,14 +21,16 @@ function PortfolioPage() {
       <h1 className='projects-h1'>Portfolio</h1>
       <section className='projects-hero-sec'>
         <img className='hero-mockup-pic' src={HeroMockupPic} alt='High fidelity mockups of FilmfanDB homepage'></img>
-        <a href='https://samiadli.com/filmfan-moviedb/' target='_blank'><button>Live Site</button></a>
-        <a href='https://github.com/1Sami1/filmfan-moviedb' target='_blank'><button>Github</button></a>
+        <div className='btn-div'>
+        <a href='https://samiadli.com/filmfan-moviedb/' target='_blank'><button className='livesite-btn' >Live Site</button></a>
+        <a href='https://github.com/1Sami1/filmfan-moviedb' target='_blank'><button className='github-btn'>Github</button></a>
+        </div>
       </section>
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
-        <p>Where im gonna write the overview for the project and the tech stack going to be under it</p>
+        <p className='overview-p'>Where im gonna write the overview for the project and the tech stack going to be under it</p>
         <h4 className='devstack-h4'>Development Stack</h4>
-        <ul>
+        <ul className='devstack-ul'>
           <li>Javasrcipt/React</li>
           <li>CSS/SASS</li>
           <li>HTML5</li>
@@ -48,7 +50,7 @@ function PortfolioPage() {
       <h4 className='favesfeature-h4'>Favourites Feature</h4>
       <p>The favorites feature text will all go here </p>
       <img></img>
-      <h4>Sorting Feature</h4>
+      <h4 className='sortfeature-h4'>Sorting Feature</h4>
       <p>The sorting feature text will all go here </p>
       <img></img>
       </section>
