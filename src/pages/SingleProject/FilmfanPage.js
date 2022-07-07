@@ -3,6 +3,7 @@ import HeroMockupPic from '../../images/Filmfan-mockup-min.png'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import favesFeatureGif from '../../images/FFfavesGIF.gif'
 
 
 function FilmfanPage() {
@@ -29,7 +30,8 @@ function FilmfanPage() {
       </section>
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
-        <p className='overview-p'>Where im gonna write the overview for the project and the tech stack going to be under it</p>
+        <p className='overview-p'>Where im gonna write the overview for the project and the tech stack going to be under it The favorites feature text will all go here  </p>
+        <p className='overview-p'>Where im gonna write the overview for the project and the tech stack going to be under it The favorites feature text will all go here  </p>
         <h4 className='devstack-h4'>Development Stack</h4>
         <ul className='devstack-ul'>
           <li>Javasrcipt/React</li>
@@ -43,16 +45,16 @@ function FilmfanPage() {
       </section>
       <section className='features-section'>
         <h3 className='features-h3'>Features</h3>
-        <Slider {...settings}>
-        <div>Image 1</div>
+        {/* <Slider {...settings}>
+        <img className='slider-feature-img' src={favesFeatureGif}></img>
         <div>Image 2</div>
         <div>Image 3</div>
-      </Slider>
+      </Slider> */}
       <h4 className='favesfeature-h4'>Favourites Feature</h4>
-      <p>The favorites feature text will all go here </p>
-      <img></img>
-      <h4>Sorting Feature</h4>
-      <p>The sorting feature text will all go here </p>
+      <p className='faves-feature-p'>The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here </p>
+      <img className='slider-feature-img' src={favesFeatureGif}></img>
+      <h4 className='sort-h4'>Sorting Feature</h4>
+      <p className='sort-p'>The sorting feature text will all go here </p>
       <img></img>
       </section>
       <section className='design-section'>
