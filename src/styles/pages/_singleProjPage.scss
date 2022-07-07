@@ -69,21 +69,16 @@
             text-align: center;
             font-size: 1.9rem;
         }
-        .favesfeature-h4{
+        .sortfeature-h4, .favesfeature-h4{
             color: #E0E0E2;
             text-shadow: 2px 2px 3px #FF6F59;
             font-size: 1.3rem;
-            margin-top: 3rem;
+            margin-top: 4rem;
             text-align: center;
             margin-right: 7rem;
         }
-        .sortfeature-h4, .sortfeature-h4{
-            color: #E0E0E2;
-            text-shadow: 2px 2px 3px #FF6F59;
-            font-size: 1.3rem;
-            margin-top: 3rem;
-            text-align: center;
-            margin-right: 7rem;
+        .sortfeature-h4{
+            margin-right: 9.2rem
         }
         .slider-feature-img{
             width: 300px !important;
@@ -92,7 +87,7 @@
             margin: 0 auto;
             margin-top: 2.5rem;
             border-radius: 20px;
-                border: 3px solid #FF6F59;
+            border: 3px solid #FF6F59;
         }
         .faves-feature-p, .sort-p{
             color: #E0E0E2;
@@ -102,7 +97,40 @@
         }   
     }
     .design-section{
-        
+        margin-top: 5rem;
+        .design-h3{
+            color: #E0E0E2;
+            text-shadow: 2px 2px 3px #FF6F59;
+            text-align: center;
+            font-size: 1.9rem;
+        }
+        .design-mu-h4, .design-res-h4{
+            color: #E0E0E2;
+            text-shadow: 2px 2px 3px #FF6F59;
+            font-size: 1.3rem;
+            margin-top: 4rem;
+            text-align: center;
+            margin-right: 9.4rem;
+        }
+        .design-mu-h4{
+            margin-right: 12.6rem;
+        }
+        .design-mu-p, .design-res-p{
+            color: #E0E0E2;
+            width: 300px;
+            margin: 0 auto;
+            font-size: 18px;
+        }
+        .slider-design-pic{
+            width: 300px !important;
+            height: 400px;
+            display: flex !important;
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 2.5rem;
+            border-radius: 20px;
+            border: 3px solid #FF6F59;
+        }
     }
 }
 
@@ -152,7 +180,27 @@
                 margin-top: 2.5rem;
                 width: 590px;
             }
-           
+        }
+        .design-section{
+            margin-top: 8rem;
+            .design-h3{
+                font-size: 2.5rem;
+            }
+            .design-mu-h4, .design-res-h4{
+                text-align: center;
+                margin: 0;
+                margin-top: 5rem;
+            }
+            .design-mu-p, .design-res-p{
+                margin: 0 auto;
+                margin-top: 2.5rem;
+                width: 590px;
+            }
+            .slider-design-pic{
+                width: 590px !important;
+                height: 400px;
+
+            }
         }
     }
 }

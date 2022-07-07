@@ -47,10 +47,10 @@ function PortfolioPage() {
         <div>Image 2</div>
         <div>Image 3</div>
       </Slider>
-      <h4 className='favesfeature-h4'>Favourites Feature</h4>
+      <h4 className='favesfeature-h4'>carousel</h4>
       <p>The favorites feature text will all go here </p>
       <img></img>
-      <h4 className='sortfeature-h4'>Sorting Feature</h4>
+      <h4 className='sortfeature-h4'>React Router</h4>
       <p>The sorting feature text will all go here </p>
       <img></img>
       </section>
@@ -61,7 +61,7 @@ function PortfolioPage() {
         <div>Image 2</div>
         <div>Image 3</div>
       </Slider>
-      <h4>Mock Ups</h4>
+      <h4>Wireframes</h4>
       <p>Mockup text will go here.</p>
       <h4>Responsiveness</h4>
       <p>Responsiveness text will go here</p>

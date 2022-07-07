@@ -5,6 +5,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import favesFeatureGif from '../../images/FFfavesGIF.gif'
 import sortFeatureGif from '../../images/FFsortGIF.gif'
+import muDesktopPic from '../../images/mu-desktop-pic.JPG'
+import muMobilePic from '../../images/mu-mobile-pic.JPG'
+import responsiveGif from '../../images/FFresponsiveGIF.gif'
 
 
 function FilmfanPage() {
@@ -61,15 +64,15 @@ function FilmfanPage() {
       <section className='design-section'>
         <h3 className='design-h3'>Design</h3>
         <Slider {...settings}>
-        <div>Image 1</div>
-        <div>Image 2</div>
-        <div>Image 3</div>
+        <img className='slider-design-pic' src={muDesktopPic}></img>
+        <img className='slider-design-pic' src={muMobilePic}></img>
+        <img className='slider-design-pic' src={responsiveGif}></img>
       </Slider>
-      <h4>Mock Ups</h4>
-      <p>Mockup text will go here.</p>
-      <h4>Responsiveness</h4>
-      <p>Responsiveness text will go here</p>
-      <img></img>
+      <h4 className='design-mu-h4'>Mock Ups</h4>
+      <p className='design-mu-p'>Mockup text will go here. The sorting feature text will all go here The sorting feature text will all go here The sorting feature text will all go here The sorting feature text will all go here</p>
+      <h4 className='design-res-h4'>Responsiveness</h4>
+      <p className='design-res-p'>Responsiveness text will go here The sorting feature text will all go here The sorting feature text will all go here The sorting feature text will all go here The sorting feature text will all go here</p>
+      {/* <img></img> */}
       </section>
     </div>
   )
