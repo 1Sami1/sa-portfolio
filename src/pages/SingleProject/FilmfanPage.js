@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import favesFeatureGif from '../../images/FFfavesGIF.gif'
+import sortFeatureGif from '../../images/FFsortGIF.gif'
 
 
 function FilmfanPage() {
@@ -53,9 +54,9 @@ function FilmfanPage() {
       <h4 className='favesfeature-h4'>Favourites Feature</h4>
       <p className='faves-feature-p'>The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here </p>
       <img className='slider-feature-img' src={favesFeatureGif}></img>
-      <h4 className='sort-h4'>Sorting Feature</h4>
-      <p className='sort-p'>The sorting feature text will all go here </p>
-      <img></img>
+      <h4 className='sortfeature-h4'>Sorting Feature</h4>
+      <p className='sort-p'>The sorting feature text will all go here The sorting feature text will all go here The sorting feature text will all go here The sorting feature text will all go here The sorting feature text will all go here The sorting feature text will all go here The sorting feature text will all go here</p>
+      <img className='slider-feature-img' src={sortFeatureGif}></img>
       </section>
       <section className='design-section'>
         <h3 className='design-h3'>Design</h3>
