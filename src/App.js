@@ -7,7 +7,9 @@ import ContactPage from './pages/ContactPage'
 import bg from '../src/images/bg-image.png'
 import FooterNav from './components/FooterNav';
 import FooterText from './components/FooterText'
-
+import FilmfanPage from './pages/FilmfanPage';
+import PortfolioPage from './pages/PortfolioPage';
+import CapstonePage from './pages/CapstonePage';
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/projects" element={<ProjectsPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/FilmfanDB" element={<FilmfanPage />}/>
+              <Route path="/Portfolio" element={<PortfolioPage />}/>
+              <Route path="/Capstone" element={<CapstonePage />}/>
           </Routes>
       </main>
       <FooterNav />
