@@ -9,6 +9,9 @@
     color: #E0E0E2;
     font-size: 3rem;
     text-align: center;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .top-bar, .bottom-bar{
     width: 155px;
@@ -36,22 +39,35 @@
     text-align: center;
 }
 .top-bar, .bottom-bar{
-    width: 450px;
+    width: 500px;
     margin: 0 auto;
     height: 10px;
     background-color: #FF6F59;
 }
 }
 }
-
-@media (min-width: 1290px) {
+@media (min-width: 1187px) {
     .hero-sec{
         top: 12rem;
         .hero-text{
-            font-size: 5.5rem;
+            font-size: 8rem;
         }
         .bottom-bar, .top-bar{
-            width: 560px;
+            width: 830px;
+        }
+    }
+    
+}
+
+
+@media (min-width: 1280px) {
+    .hero-sec{
+        top: 12rem;
+        .hero-text{
+            font-size: 8rem;
+        }
+        .bottom-bar, .top-bar{
+            width: 830px;
         }
     }
     
