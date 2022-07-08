@@ -12,7 +12,7 @@ import CapstonePage from './pages/SingleProject/CapstonePage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
     <div className="App">
       <Header />
       <main>
