@@ -21,7 +21,7 @@ function LandingPage() {
         <h1 className='hero-text'>Creative Developer</h1>
         <div className='bottom-bar'></div>
       </section>
-      <a className='scroll-btn' href="/" onClick={scrollBtm}><FaArrowDown className='scroll-arrow' /></a>
+      {/* <a className='scroll-btn' href="/" onClick={scrollBtm}><FaArrowDown className='scroll-arrow' /></a> */}
       <section className='about-sec'>
         <h2 className='about-sec-h2'>About</h2>
         <p className='about-sec-p'>I'm Sami! I am a Front-End Developer based in Vancouver, BC.<br/> I take pride in creating excellent designs! </p>
