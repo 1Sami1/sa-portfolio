@@ -1,5 +1,5 @@
 import React from 'react'
-import previewPic from '../images/flimfanSS.png'
+import previewPic from '../images/comingsoon.png'
 import { Link } from 'react-router-dom';
 
 function CapstoneCard() {
