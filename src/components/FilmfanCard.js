@@ -1,5 +1,5 @@
 import React from 'react'
-import previewPic from '../images/flimfanSS.png'
+import previewPic from '../images/Filmfan-mockup-min.png'
 import { Link } from 'react-router-dom';
 
 

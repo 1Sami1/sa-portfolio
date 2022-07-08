@@ -1,5 +1,5 @@
 import React from 'react'
-import previewPic from '../images/portfolio-pic.jpeg'
+import previewPic from '../images/Portfolio-mockup-min.png'
 import { Link } from 'react-router-dom';
 
 function PortfolioCard() {

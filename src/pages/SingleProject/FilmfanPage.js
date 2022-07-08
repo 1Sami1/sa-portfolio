@@ -71,7 +71,7 @@ function FilmfanPage() {
       <h4 className='design-mu-h4'>Mock Ups</h4>
       <p className='design-mu-p'>High fidelity mockups were made with Adobe XD using a mobile-first approach. The website design is clean and simple with minimal elements, it focuses on the main content while giving elements plenty of breathing room. The colors are light and give off a fun and playful vibe.</p>
       <h4 className='design-res-h4'>Responsiveness</h4>
-      <p className='design-res-p'>Responsive design is a key aspect in web Development. FilmFanDB was coded and styled mobile-first and works on all screen sizes. With the use of multiple media queries the website has no breakpoints on any screen size between 320px and 1920px</p>
+      <p className='design-res-p'>Responsive design is a key aspect in web Development. FilmFanDB was coded and styled mobile-first and works on all screen sizes. With the use of multiple media queries the website has no breakpoints on any screen size between 320px and 1920px.</p>
       </section>
       <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
     </div>

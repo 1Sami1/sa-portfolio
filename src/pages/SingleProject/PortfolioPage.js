@@ -52,10 +52,10 @@ function PortfolioPage() {
         <img className='slider-port-pic' src={routerPic}></img>
       </Slider>
       <h4 className='favesfeature-h4 carousel'>Carousel</h4>
-      <p className='faves-feature-p'>The Carousel feature was implemented using a lightweight Javasrcipt library called Slick.  </p>
+      <p className='faves-feature-p'>The Carousel feature was implemented using a lightweight Javasrcipt library called Slick. A simple npm download provided me with the react component as well as its styling which allowed me to customize the carousel to my liking with ease.   </p>
       <img></img>
       <h4 className='sortfeature-h4'>React Router</h4>
-      <p className='sort-p'>The sorting feature text will all go here The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here v</p>
+      <p className='sort-p'>React Router is another lightweight Javascript library that allowed for super easy routing to all the different pages. React router has great documentation which allowed me to very easily understand how browser routing worked and implement it in my portfolio.</p>
       <img></img>
       </section>
       <section className='design-section'>
@@ -65,9 +65,9 @@ function PortfolioPage() {
         <img className='slider-port-pic' src={responsiveGif}></img>
       </Slider>
       <h4 className='design-mu-h4'>Wireframes</h4>
-      <p className='design-mu-p'>Mockup text will go here. The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here</p>
+      <p className='design-mu-p'>I started this project by designing some wireframes to have a base model of what my portfolio would like in terms of layout and content organization. I designed the wireframes using a mobile-first approach as responsiveness is a key aspect to have on a project. While my end project does not look much like the wireframes, they helped tremendously to reach the goal. </p>
       <h4 className='design-res-h4'>Responsiveness</h4>
-      <p className='design-res-p'>Responsiveness text will go here The favorites feature text will all go here The favorites feature text will all go here The favorites feature text will all go here</p>
+      <p className='design-res-p'>Responsive design is a key aspect in web Development. My portfolio was coded and styled mobile-first and works on all screen sizes. With the use of multiple media queries the website has no breakpoints on any screen size between 320px and 1920px.</p>
       </section>
       <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
 
