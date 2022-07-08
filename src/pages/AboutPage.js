@@ -44,7 +44,7 @@ function AboutPage() {
       </div>
       <Link to="/projects"><button className='projects-cta'>See My Work</button></Link>
 
-    <Particles />
+    {/* <Particles /> */}
     </div>
   )
 }

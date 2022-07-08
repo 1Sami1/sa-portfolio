@@ -31,7 +31,7 @@ function LandingPage() {
         <h2 className='work-sec-h2'>Featured Work</h2>
         <Carousel />
       </section>
-      <Particles />
+      {/* <Particles /> */}
     </div>
   )
 }
