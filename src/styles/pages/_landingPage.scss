@@ -1,5 +1,4 @@
-
-
+// Hero section Mobile Styles
 .hero-sec{
     position: relative;
     top: 1rem;
@@ -27,7 +26,7 @@
 }
    
 }
-// Desktop Style
+// Hero section Desktop Styles
 @media (min-width: 600px) {
     .hero-sec{
         z-index: 6;
@@ -70,52 +69,10 @@
             width: 830px;
         }
     }
-    
 }
 
+// About section Mobile styles
 
-
-.scroll-btn{
-   display: flex;
-   justify-content: center;
-   scroll-behavior: smooth;
-    .scroll-arrow{
-        font-size: 2rem;
-        color: #FF6F59;
-        // bottom arrow animations
-        -moz-animation: bounce 2s infinite;
-         -webkit-animation: bounce 2s infinite;
-         animation: bounce 2s infinite;
-    }
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
-    }
-    40% {
-      transform: translateY(-30px);
-    }
-    60% {
-      transform: translateY(-15px);
-    }
-  }
-  // bottom arrow placement
-@media (max-width: 600px) {
-    .scroll-btn{
-        position: relative;
-        bottom: 18rem;
-    }
-}
-@media (min-width: 600px) {
-    .scroll-btn{
-        position: relative;
-        bottom: 16rem;
-    }
-    
-}
-
-// About section
 .about-sec{
     margin-top: 0;
     text-align: center;
@@ -164,7 +121,6 @@
         margin-bottom: 1rem;
        }
     }
-    
 }
 
 // Featured Work Section 

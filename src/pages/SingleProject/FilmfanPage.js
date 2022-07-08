@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 
 
 function FilmfanPage() {
+
   const settings = {
     dots: true,
     infinite: true,
@@ -25,7 +26,9 @@ function FilmfanPage() {
 
   return (
     <div className='projects-wrapper'>
+
       <h1 className='projects-h1'>FilmfanDB</h1>
+
       <section className='projects-hero-sec'>
         <img className='hero-mockup-pic' src={HeroMockupPic} alt='High fidelity mockups of FilmfanDB homepage'></img>
         <div className='btn-div'>
@@ -33,6 +36,7 @@ function FilmfanPage() {
         <a href='https://github.com/1Sami1/filmfan-moviedb' target='_blank'><button className='github-btn'>Github</button></a>
         </div>
       </section>
+
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
         <p className='overview-p'>FilmFanDB is a movie database web app that allows users to find information about various movies, sort through different categories on the homepage and add movies to their favorites page! It is built with React.js and it collects real time data through The Movie Databse API.  </p>
@@ -47,13 +51,9 @@ function FilmfanPage() {
           <li>GitHub</li>
         </ul>
       </section>
+
       <section className='features-section'>
         <h3 className='features-h3'>Features</h3>
-        {/* <Slider {...settings}>
-        <img className='slider-feature-img' src={favesFeatureGif}></img>
-        <div>Image 2</div>
-        <div>Image 3</div>
-      </Slider> */}
       <h4 className='favesfeature-h4'>Favourites Feature</h4>
       <p className='faves-feature-p'>The favorites feature was created for users to save their favorite movies without the need for an account. Local storage is used to save the movies dynamically and display them on the favorites page. Users are also able to unfavorite any movie they no longer want. </p>
       <img className='slider-feature-img' src={favesFeatureGif}></img>
@@ -61,6 +61,7 @@ function FilmfanPage() {
       <p className='sort-p'>This feature allows user to toggle between Top rated, Popular, Upcoming and Now playing. It required the manipulation of the API url in order to target the specific data from the database and display the movies related to the different filters.   </p>
       <img className='slider-feature-img' src={sortFeatureGif}></img>
       </section>
+
       <section className='design-section'>
         <h3 className='design-h3'>Design</h3>
         <Slider {...settings}>
@@ -73,8 +74,11 @@ function FilmfanPage() {
       <h4 className='design-res-h4'>Responsiveness</h4>
       <p className='design-res-p'>Responsive design is a key aspect in web Development. FilmFanDB was coded and styled mobile-first and works on all screen sizes. With the use of multiple media queries the website has no breakpoints on any screen size between 320px and 1920px.</p>
       </section>
+
       <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
+      
     </div>
+
   )
 }
 

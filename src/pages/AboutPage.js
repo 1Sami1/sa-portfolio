@@ -1,14 +1,17 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Particles from '../components/Particles';
 
 function AboutPage() {
+
   return (
     <div className='about-wrapper'>
+
       <h1 className='about-h1'>About</h1>
-      <p className='about-para'>Hello! I'm Sami Adli and I'm a Front-End Developer that loves to create simple yet highly impactful and functional websites. Im commited to designing and developing beautiful websites that are created with all users in mind. Im very happy that this is an ever-evolving industry as I love to continue learning new things to help me on my coding journey. My favourite aspect in Web Development is styling, I love to play around with UI elements and experiment with colors and different layouts as well as express my creativity digitally.<br className='p-break'/> Outside of the Web Development world, I have a huge passion for cooking various types of cuisines! When Im not behind the computer, you can find me playing basketball, playing with my cat Bruno or having a snack and watching my favorite Tv-show The Office!</p>
-      {/* <h3 className='about-ed-h3'>Education</h3> */}
+
+      <p className='about-para'>Hello! I'm Sami Adli and I'm a Front-End Developer that loves to create simple yet highly impactful and functional websites. Im commited to designing and developing beautiful websites that are created with all users in mind. Im very happy that this is an ever-evolving industry as I love to continue learning new things to help me on my coding journey. My favourite aspect in Web Development is styling, I love to play around with UI elements and experiment with colors and different layouts as well as express my creativity digitally.<br /> Outside of the Web Development world, I have a huge passion for cooking various types of cuisines! When Im not behind the computer, you can find me playing basketball, playing with my cat Bruno or having a snack and watching my favorite Tv-show The Office!</p>
+
       <h3 className='about-tk-h3'>In My Toolkit</h3>
+
       <div className='tk-wrapper'>
         <div className='dev'>
           <h4 className='tk-h4'>Development</h4>
@@ -42,9 +45,9 @@ function AboutPage() {
         </div>
         
       </div>
+
       <Link to="/projects"><button className='projects-cta'>See My Work</button></Link>
 
-    {/* <Particles /> */}
     </div>
   )
 }

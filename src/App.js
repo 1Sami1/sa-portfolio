@@ -4,7 +4,6 @@ import AboutPage from './pages/AboutPage'
 import LandingPage from './pages/LandingPage'
 import ProjectsPage from './pages/ProjectsPage'
 import ContactPage from './pages/ContactPage'
-import bg from '../src/images/bg-image.png'
 import FooterNav from './components/FooterNav';
 import FooterText from './components/FooterText'
 import FilmfanPage from './pages/SingleProject/FilmfanPage';
@@ -29,8 +28,6 @@ function App() {
       </main>
       <FooterNav />
       <FooterText />
-      
-     
     </div>
     </BrowserRouter>
   );

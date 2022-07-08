@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 
 
 function PortfolioPage() {
+
   const settings = {
     dots: true,
     infinite: true,
@@ -21,9 +22,12 @@ function PortfolioPage() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
   return (
     <div className='projects-wrapper'>
+
       <h1 className='projects-h1'>Portfolio</h1>
+
       <section className='projects-hero-sec'>
         <img className='hero-mockup-pic' src={HeroMockupPic} alt='High fidelity mockups of FilmfanDB homepage'></img>
         <div className='btn-div'>
@@ -31,6 +35,7 @@ function PortfolioPage() {
         <a href='https://github.com/1Sami1/filmfan-moviedb' target='_blank'><button className='github-btn'>Github</button></a>
         </div>
       </section>
+
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
         <p className='overview-p'>My personal portfolio, the site you're browsing right now! This site was built with React.js as a platform to showcase my work, design skills and my experience in web development. While it is mainly a static site I utilized React to add some dynamism.</p>
@@ -45,6 +50,7 @@ function PortfolioPage() {
           <li>GitHub</li>
         </ul>
       </section>
+
       <section className='features-section'>
         <h3 className='features-h3'>Features</h3>
         <Slider {...settings}>
@@ -53,11 +59,10 @@ function PortfolioPage() {
       </Slider>
       <h4 className='favesfeature-h4 carousel'>Carousel</h4>
       <p className='faves-feature-p'>The Carousel feature was implemented using a lightweight Javasrcipt library called Slick. A simple npm download provided me with the react component as well as its styling which allowed me to customize the carousel to my liking with ease.   </p>
-      <img></img>
       <h4 className='sortfeature-h4'>React Router</h4>
       <p className='sort-p'>React Router is another lightweight Javascript library that allowed for super easy routing to all the different pages. React router has great documentation which allowed me to very easily understand how browser routing worked and implement it in my portfolio.</p>
-      <img></img>
       </section>
+
       <section className='design-section'>
         <h3 className='design-h3'>Design</h3>
         <Slider {...settings}>
@@ -69,11 +74,8 @@ function PortfolioPage() {
       <h4 className='design-res-h4'>Responsiveness</h4>
       <p className='design-res-p'>Responsive design is a key aspect in web Development. My portfolio was coded and styled mobile-first and works on all screen sizes. With the use of multiple media queries the website has no breakpoints on any screen size between 320px and 1920px.</p>
       </section>
+
       <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
-
-     
-
-
     </div>
   )
 }
