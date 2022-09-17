@@ -9,12 +9,14 @@ import FooterText from './components/FooterText'
 import FilmfanPage from './pages/SingleProject/FilmfanPage';
 import PortfolioPage from './pages/SingleProject/PortfolioPage';
 import CapstonePage from './pages/SingleProject/CapstonePage';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter >
     <div className="App">
       <Header />
+      <ScrollToTop />
       <main>
           <Routes>
               <Route path="/" element={<LandingPage/>} />
