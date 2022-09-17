@@ -1,6 +1,8 @@
 //mobile styles
 .about-wrapper{
     text-align: center;
+    animation: pulse;
+        animation-duration: 1s;
     .about-h1{
         color: #E0E0E2;
         text-shadow: 2px 2px 3px #FF6F59;
@@ -9,6 +11,7 @@
         bottom: 6.5rem;
         font-size: 2.8rem;
         margin-bottom: 0;
+    
     }
     .about-para{
         color: #E0E0E2;
@@ -19,12 +22,14 @@
         border: 2px solid #FF6F59;
         border-radius: 10px;
         margin-bottom: 7rem;
+    
     }
     .about-tk-h3{
         color: #E0E0E2;
         text-shadow: 2px 2px 3px #FF6F59;
         text-align: center;
         font-size: 1.9rem;
+
     }
     .tk-wrapper{
         margin-bottom: 5rem;
@@ -55,7 +60,7 @@
         margin-top: 1rem;
         padding: .6rem;
         font-size: 1rem;
-        margin-bottom: 5rem
+        margin-bottom: 5rem;
     }.projects-cta:hover{
         background-color: #FF6F59;
         cursor: pointer;

@@ -1,6 +1,8 @@
 // Projects page mobile styling
 .projects-wrapper{
     margin-bottom: 6.5rem;
+    animation: pulse;
+        animation-duration: 1s;
     .projects-h1{
         color: #E0E0E2;
         text-shadow: 2px 2px 3px #FF6F59;
