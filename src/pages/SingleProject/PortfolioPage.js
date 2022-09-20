@@ -8,6 +8,7 @@ import routerPic from '../../images/routerfeature.png'
 import responsiveGif from '../../images/portResposiveVid.gif'
 import wireframesPic from '../../images/portfolio-wireframes.JPG'
 import { Link } from 'react-router-dom';
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 
 function PortfolioPage() {
@@ -36,6 +37,7 @@ function PortfolioPage() {
         </div>
       </section>
 
+      <AnimationOnScroll animateIn='animate__fadeInUp' animateOnce='true'>
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
         <p className='overview-p'>My personal portfolio, the site you're browsing right now! This site was built with React.js as a platform to showcase my work, design skills and my experience in web development. While it is mainly a static site I utilized React to add some dynamism.</p>
@@ -50,7 +52,9 @@ function PortfolioPage() {
           <li>GitHub</li>
         </ul>
       </section>
+      </AnimationOnScroll>
 
+      <AnimationOnScroll animateIn='animate__fadeInUp' animateOnce='true'>
       <section className='features-section'>
         <h3 className='features-h3'>Features</h3>
         <Slider {...settings}>
@@ -62,7 +66,9 @@ function PortfolioPage() {
       <h4 className='sortfeature-h4'>React Router</h4>
       <p className='sort-p'>React Router is another lightweight Javascript library that allowed for super easy routing to all the different pages. React router has great documentation which allowed me to very easily understand how browser routing worked and implement it in my portfolio.</p>
       </section>
+      </AnimationOnScroll>
 
+      <AnimationOnScroll animateIn='animate__fadeInUp' animateOnce='true'>
       <section className='design-section'>
         <h3 className='design-h3'>Design</h3>
         <Slider {...settings}>
@@ -74,6 +80,7 @@ function PortfolioPage() {
       <h4 className='design-res-h4'>Responsiveness</h4>
       <p className='design-res-p'>Responsive design is a key aspect in web Development. My portfolio was coded and styled mobile-first and works on all screen sizes. With the use of multiple media queries the website has no breakpoints on any screen size between 320px and 1920px.</p>
       </section>
+      </AnimationOnScroll>
 
       <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
     </div>

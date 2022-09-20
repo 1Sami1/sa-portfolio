@@ -38,7 +38,7 @@ function FilmfanPage() {
         </div>
       </section>
 
-      <AnimationOnScroll animateIn='animate__fadeInUp'>
+      <AnimationOnScroll animateIn='animate__fadeInUp' animateOnce='true'>
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
         <p className='overview-p'>FilmFanDB is a movie database web app that allows users to find information about various movies, sort through different categories on the homepage and add movies to their favorites page! It is built with React.js and it collects real time data through The Movie Databse API.  </p>
@@ -55,7 +55,7 @@ function FilmfanPage() {
       </section>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn='animate__fadeInUp'>
+      <AnimationOnScroll animateIn='animate__fadeInUp' animateOnce='true'>
       <section className='features-section'>
         <h3 className='features-h3'>Features</h3>
       <h4 className='favesfeature-h4'>Favourites Feature</h4>
@@ -67,7 +67,7 @@ function FilmfanPage() {
       </section>
       </AnimationOnScroll>
 
-      <AnimationOnScroll animateIn='animate__fadeInUp'>
+      <AnimationOnScroll animateIn='animate__fadeInUp' animateOnce='true'>
       <section className='design-section'>
         <h3 className='design-h3'>Design</h3>
         <Slider {...settings}>
@@ -81,7 +81,7 @@ function FilmfanPage() {
       <p className='design-res-p'>Responsive design is a key aspect in web Development. FilmFanDB was coded and styled mobile-first and works on all screen sizes. With the use of multiple media queries the website has no breakpoints on any screen size between 320px and 1920px.</p>
       </section>
       </AnimationOnScroll>
-      
+
       <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
       
     </div>

@@ -13,11 +13,11 @@ function ProjectsPage() {
 
       <section className='projects-sec'>
         <ProjectCard />
-        <AnimationOnScroll animateIn='animate__bounceInUp' initiallyVisible='true'>
+        <AnimationOnScroll animateIn='animate__bounceInUp' initiallyVisible='true' animateOnce='true'>
           <PortfolioCard />
         </AnimationOnScroll>
         
-        <AnimationOnScroll animateIn='animate__bounceInUp'>
+        <AnimationOnScroll animateIn='animate__bounceInUp' animateOnce='true'>
         <CapstoneCard />
         </AnimationOnScroll>
       </section>
