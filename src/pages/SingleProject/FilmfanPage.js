@@ -9,6 +9,7 @@ import muDesktopPic from '../../images/mu-desktop-pic.JPG'
 import muMobilePic from '../../images/mu-mobile-pic.JPG'
 import responsiveGif from '../../images/FFresponsiveGIF.gif'
 import { Link } from 'react-router-dom';
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 
 function FilmfanPage() {
@@ -36,7 +37,8 @@ function FilmfanPage() {
         <a href='https://github.com/1Sami1/filmfan-moviedb' target='_blank'><button className='github-btn'>Github</button></a>
         </div>
       </section>
-      
+
+      <AnimationOnScroll animateIn='animate__fadeInUp'>
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
         <p className='overview-p'>FilmFanDB is a movie database web app that allows users to find information about various movies, sort through different categories on the homepage and add movies to their favorites page! It is built with React.js and it collects real time data through The Movie Databse API.  </p>
@@ -51,7 +53,9 @@ function FilmfanPage() {
           <li>GitHub</li>
         </ul>
       </section>
+      </AnimationOnScroll>
 
+      <AnimationOnScroll animateIn='animate__fadeInUp'>
       <section className='features-section'>
         <h3 className='features-h3'>Features</h3>
       <h4 className='favesfeature-h4'>Favourites Feature</h4>
@@ -61,7 +65,9 @@ function FilmfanPage() {
       <p className='sort-p'>This feature allows user to toggle between Top rated, Popular, Upcoming and Now playing. It required the manipulation of the API url in order to target the specific data from the database and display the movies related to the different filters.   </p>
       <img className='slider-feature-img' src={sortFeatureGif}></img>
       </section>
+      </AnimationOnScroll>
 
+      <AnimationOnScroll animateIn='animate__fadeInUp'>
       <section className='design-section'>
         <h3 className='design-h3'>Design</h3>
         <Slider {...settings}>
@@ -74,7 +80,8 @@ function FilmfanPage() {
       <h4 className='design-res-h4'>Responsiveness</h4>
       <p className='design-res-p'>Responsive design is a key aspect in web Development. FilmFanDB was coded and styled mobile-first and works on all screen sizes. With the use of multiple media queries the website has no breakpoints on any screen size between 320px and 1920px.</p>
       </section>
-
+      </AnimationOnScroll>
+      
       <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
       
     </div>
