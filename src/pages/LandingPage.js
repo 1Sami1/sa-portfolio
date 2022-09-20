@@ -12,7 +12,7 @@ function LandingPage() {
     <div className='lp-wrapper'>
       
       <section className='hero-sec'>
-        <div className='top-bar'></div>
+        {/* <div className='top-bar'></div> */}
 
         <div className='hero-text'>
           <ul className='dynamic-txt'>
@@ -24,8 +24,10 @@ function LandingPage() {
           <div className='static-txt'>Developer</div>
         </div>
         
-        <div className='bottom-bar'></div>
+        {/* <div className='bottom-bar'></div> */}
       </section>
+
+      
       <AnimationOnScroll animateIn='animate__bounceInLeft'>
         <section className='about-sec'>
           <h2 className='about-sec-h2'>About</h2>
