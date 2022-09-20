@@ -36,7 +36,7 @@ function FilmfanPage() {
         <a href='https://github.com/1Sami1/filmfan-moviedb' target='_blank'><button className='github-btn'>Github</button></a>
         </div>
       </section>
-
+      
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
         <p className='overview-p'>FilmFanDB is a movie database web app that allows users to find information about various movies, sort through different categories on the homepage and add movies to their favorites page! It is built with React.js and it collects real time data through The Movie Databse API.  </p>

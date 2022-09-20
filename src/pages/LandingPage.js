@@ -13,7 +13,17 @@ function LandingPage() {
       
       <section className='hero-sec'>
         <div className='top-bar'></div>
-        <h1 className='hero-text'>Creative Developer</h1>
+
+        <div className='hero-text'>
+          <ul className='dynamic-txt'>
+            <li><span>Creative</span></li>
+            <li><span>Handsome</span></li>
+            <li><span>Funny</span></li>
+            <li><span>Genius</span></li>
+          </ul>
+          <div className='static-txt'>Developer</div>
+        </div>
+        
         <div className='bottom-bar'></div>
       </section>
       <AnimationOnScroll animateIn='animate__bounceInLeft'>
