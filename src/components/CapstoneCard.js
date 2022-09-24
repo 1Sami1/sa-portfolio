@@ -10,9 +10,9 @@ function CapstoneCard() {
       </div>
       <div className='card-info'>
           <h3 className='card-proj-dukes'>Duke's Steakhouse</h3>
-          <p className='card-proj-tags-dukes'>Wordpress | Sass | Javascript</p>
-          <p className='card-proj-p-dukes'>Coming Soon!!</p>
-          <Link to='/projects'><button className='card-btn'>See Project</button></Link>
+          <p className='card-proj-tags-dukes'>Wordpress | Sass | PHP</p>
+          <p className='card-proj-p-dukes'>A headless CMS website designed with a custom WordPress theme. </p>
+          <Link to='/Capstone'><button className='card-btn'>See Project</button></Link>
       </div>
       
 
