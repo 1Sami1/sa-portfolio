@@ -10,6 +10,7 @@ import FilmfanPage from './pages/SingleProject/FilmfanPage';
 import PortfolioPage from './pages/SingleProject/PortfolioPage';
 import CapstonePage from './pages/SingleProject/CapstonePage';
 import ScrollToTop from './components/ScrollToTop';
+import Page404 from './pages/Page404';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <Route path="/FilmfanDB" element={<FilmfanPage />}/>
               <Route path="/Portfolio" element={<PortfolioPage />}/>
               <Route path="/Capstone" element={<CapstonePage />}/>
+              <Route path='*' element={<Page404 />}/>
           </Routes>
       </main>
       <FooterNav />
