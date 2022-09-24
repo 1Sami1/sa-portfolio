@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroMockupPic from '../../images/Portfolio-mockup-min.png'
+import HeroMockupPic from '../../images/PortFolio-MUv2.svg'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"
