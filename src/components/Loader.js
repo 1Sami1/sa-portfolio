@@ -3,9 +3,10 @@ import { MoonLoader } from "react-spinners"
 
 
 function Loader() {
+
     return (
         <div className="load-wrapper">
-            <MoonLoader />
+            <MoonLoader color="#ff6f59"/>
         
         </div>
         
