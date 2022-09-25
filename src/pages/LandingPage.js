@@ -15,7 +15,7 @@ function LandingPage() {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
-      }, 1500);
+      }, 1000);
     }, []);
 
 
