@@ -1,17 +1,19 @@
 import React from "react"
-import { MoonLoader } from "react-spinners"
+import { BarLoader } from "react-spinners"
+
 
 
 function Loader() {
 
     return (
-        <div className="load-wrapper">
-            <MoonLoader color="#ff6f59"/>
-        
-        </div>
-        
-    )
 
+        <div className="load-wrapper">
+
+            <BarLoader color="#ff6f59"/>
+
+        </div>
+
+    )
 }
 
 export default Loader

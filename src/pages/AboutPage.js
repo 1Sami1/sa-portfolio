@@ -1,10 +1,24 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import react, { useState, useEffect } from 'react';
+import Loader from '../components/Loader';
 
 function AboutPage() {
 
+  const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+      setLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+    }, []);
+
   return (
+    <>
+    {loading ? (
+        <Loader /> ) : (
     <div className='about-wrapper'>
 
       <h1 className='about-h1'>About</h1>
@@ -48,8 +62,13 @@ function AboutPage() {
       </div>
       </AnimationOnScroll>
       <Link to="/projects"><button className='projects-cta'>See My Work</button></Link>
+      
 
     </div>
+
+    )}
+    
+    </>
   )
 }
 
