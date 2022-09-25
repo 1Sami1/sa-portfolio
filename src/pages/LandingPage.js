@@ -3,12 +3,16 @@ import { Link } from 'react-router-dom';
 import Carousel from '../components/Carousel';
 import 'animate.css'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
+import React, { useState, useEffect } from 'react';
 
 
 
 function LandingPage() {
 
   return (
+
+    
+
     <div className='lp-wrapper'>
       
       <section className='hero-sec'>
