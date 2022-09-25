@@ -10,9 +10,19 @@ import muMobilePic from '../../images/mu-mobile-pic.JPG'
 import responsiveGif from '../../images/FFresponsiveGIF.gif'
 import { Link } from 'react-router-dom';
 import { AnimationOnScroll } from 'react-animation-on-scroll'
+import react, { useState, useEffect } from 'react'
+import Loader from '../../components/Loader'
 
 
 function FilmfanPage() {
+  const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+      setLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+    }, []);
 
   const settings = {
     dots: true,
@@ -26,6 +36,10 @@ function FilmfanPage() {
   };
 
   return (
+    <>
+    {loading ? (
+        <Loader /> ) : (
+
     <div className='projects-wrapper'>
 
       <h1 className='projects-h1'>FilmfanDB</h1>
@@ -85,7 +99,8 @@ function FilmfanPage() {
       <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
       
     </div>
-
+        )}
+    </>
   )
 }
 

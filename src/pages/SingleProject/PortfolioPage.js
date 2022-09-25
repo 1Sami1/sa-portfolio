@@ -9,9 +9,20 @@ import responsiveGif from '../../images/portResposiveVid.gif'
 import wireframesPic from '../../images/portfolio-wireframes.JPG'
 import { Link } from 'react-router-dom';
 import { AnimationOnScroll } from 'react-animation-on-scroll'
+import react, { useState, useEffect } from 'react'
+import Loader from '../../components/Loader'
 
 
 function PortfolioPage() {
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
+
 
   const settings = {
     dots: true,
@@ -25,6 +36,10 @@ function PortfolioPage() {
   };
 
   return (
+    <>
+
+      {loading ? (
+        <Loader /> ) : (
     <div className='projects-wrapper'>
 
       <h1 className='projects-h1'>Portfolio</h1>
@@ -84,6 +99,8 @@ function PortfolioPage() {
 
       <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
     </div>
+    )}
+    </>
   )
 }
 

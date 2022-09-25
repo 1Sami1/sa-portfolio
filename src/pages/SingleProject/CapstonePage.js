@@ -1,10 +1,23 @@
 import React from 'react'
 import HeroMockupPic from '../../images/Dukes-MUv2.svg'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
+import react, { useState, useEffect } from 'react'
+import Loader from '../../components/Loader'
 
 
 function CapstonePage() {
+  const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+      setLoading(true);
+      setTimeout(() => {
+        setLoading(false);
+      }, 1000);
+    }, []);
   return (
+    <>
+    {loading ? (
+        <Loader /> ) : (
     <div className='projects-wrapper'>
       <h1 className='projects-h1'>Duke's Steakhouse</h1>
 
@@ -32,46 +45,12 @@ function CapstonePage() {
       </section>
       </AnimationOnScroll>
 
-
-
       </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
+    )}
+    </>
   )
 }
 
