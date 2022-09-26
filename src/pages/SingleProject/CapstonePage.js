@@ -3,6 +3,8 @@ import HeroMockupPic from '../../images/Dukes-MUv2.svg'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import react, { useState, useEffect } from 'react'
 import Loader from '../../components/Loader'
+import acfFeature from '../../images/CP-ACF-min.JPG'
+
 
 
 function CapstonePage() {
@@ -50,7 +52,13 @@ function CapstonePage() {
       <AnimationOnScroll animateIn='animate__fadeInUp' animateOnce='true'>
       <section className='features-section'>
         <h3 className='features-h3'>Features</h3>
-     
+        <h4 className='favesfeature-h4'>Advanced Custom Fields</h4>
+        <p className='faves-feature-p'>The Advanced Custom Fields allowed us to create fields to output the content of the site on all the pages in an organized manner. The fields were categorized by page and each field had a specific ID which helped in styling later on.  </p>
+        <img className='slider-feature-img' src={acfFeature}></img>
+        <h4 className='favesfeature-h4'>Custom WordPress Login Page</h4>
+        <p className='faves-feature-p'></p>
+
+  
       </section>
       </AnimationOnScroll>
       
