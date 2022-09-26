@@ -1,8 +1,11 @@
+
+
 // Mobile bottom nav
 .site-nav{
     visibility: hidden;
 }
-.bottom-nav {
+
+.bottom-nav{
     position: fixed;
     width: 100%;
     display: flex;
@@ -12,7 +15,8 @@
     background-color: #FF6F59;
     z-index: 99999;
     height: 45px;
-    .bottom-nav-item {
+
+    .bottom-nav-item{
         flex-grow: 1;
         display: flex;
         flex-direction: column;
@@ -20,76 +24,89 @@
         align-items: center;
         height: 100%;
         transition: all 0.2s ease;
-      }:hover{
+    }:hover{
         background-color: #2C302E;
         transition: all 0.2s ease;
       }
-      .bottom-nav-title{
-        text-decoration: none;
-        font-size: 0.7rem;
-        color: white;
-      }
-}
 
+    .bottom-nav-title{
+      text-decoration: none;
+      font-size: 0.7rem;
+      color: white;
+    }
+
+}
 
 
 
 // Desktop top nav
-@media (min-width: 600px) {
+@media (min-width: 600px){
+
     .bottom-nav{
-        visibility: hidden;
+      visibility: hidden;
     }
+
     .site-nav{
-        visibility: visible;
-    .nav-ul{
+      visibility: visible;
+
+      .nav-ul{
         display: flex;
         align-items: center;
         padding: 0;
         margin: 0;
+
         li{
-            list-style: none;
-            padding: 1rem;
-            font-family: 'Josefin Sans', sans-serif;
-            a{
-                text-decoration: none;
-                font-size: 1.2rem;
-                color: white;
-                position: relative;
-                transition: color .4s ease-out;
-     // undeline animation           
-            }a:hover{
-                right: 0;
-                color: #FF6F59;
-               text-decoration: none;
-            }a:after{
-                border-radius: 1em;
-                border-top: .07em solid #FF6F59;
-                content: "";
-                position: absolute;
-                right: 100%;
-                bottom: .01em;
-                left: 0;
-                transition: right .4s cubic-bezier(0,.5,0,1),
-              border-color .4s ease-out;
-            }a:hover:after{
-                animation: anchor-underline 2s cubic-bezier(0,.5,0,1) infinite;
-                border-color: #FF6F59;
+          list-style: none;
+          padding: 1rem;
+          font-family: 'Josefin Sans', sans-serif;
+
+          a{
+            text-decoration: none;
+            font-size: 1.2rem;
+            color: white;
+            position: relative;
+            transition: color .4s ease-out;
+          }
+
+          // undeline animation 
+          a:hover{
+            right: 0;
+            color: #FF6F59;
+            text-decoration: none;
+          }
+
+          a:after{
+            border-radius: 1em;
+            border-top: .07em solid #FF6F59;
+            content: "";
+            position: absolute;
+            right: 100%;
+            bottom: .01em;
+            left: 0;
+            transition: right .4s cubic-bezier(0,.5,0,1),
+            border-color .4s ease-out;
+          }
+
+          a:hover:after{
+            animation: anchor-underline 2s cubic-bezier(0,.5,0,1) infinite;
+            border-color: #FF6F59;
+          }
+
+          @keyframes anchor-underline {
+            0%, 10% {
+            left: 0;
+            right: 100%;
             }
-            @keyframes anchor-underline {
-                0%, 10% {
-                  left: 0;
-                  right: 100%;
-                }
-                40%, 60% {
-                  left: 0;
-                  right: 0;
-                }
-                90%, 100% {
-                  left: 100%;
-                  right: 0;
-                }
-              }
+            40%, 60% {
+            left: 0;
+            right: 0;
+            }
+            90%, 100% {
+            left: 100%;
+            right: 0;
+            }
+          }
         }
     }
-}
+  }
 }
