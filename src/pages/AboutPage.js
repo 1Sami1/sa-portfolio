@@ -33,7 +33,7 @@ function AboutPage() {
               <ul className='tk-list'>
                 <li className='tk-li'>HTML</li>
                 <li className='tk-li'>CSS</li>
-                
+                <li className='tk-li'>Node</li>
                 <li className='tk-li'>Javascript</li>
                 <li className='tk-li'>PHP</li>
                 <li className='tk-li'>Wordpress</li>
