@@ -8,8 +8,10 @@ import Loader from '../components/Loader';
 
 
 function ProjectsPage() {
-  const [loading, setLoading] = useState(false);
 
+  // Loading animation
+  const [loading, setLoading] = useState(false);
+  
     useEffect(() => {
       setLoading(true);
       setTimeout(() => {
@@ -21,9 +23,9 @@ function ProjectsPage() {
     <>
     {loading ? (
         <Loader /> ) : (
+
     <div className='projects-wrapper'>
       
-
       <h1 className='projects-h1'>Projects</h1>
 
       <section className='projects-sec'>
@@ -40,10 +42,10 @@ function ProjectsPage() {
 
       </section>
       
-      
     </div>
     
     )}
+
     </>
   )
 }
