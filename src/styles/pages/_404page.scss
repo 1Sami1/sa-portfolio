@@ -1,6 +1,9 @@
 
+
+    // Mobile Styles
 .wrapper-404{
     margin-bottom: 10rem;
+
     .h2-404{
         color: #E0E0E2;
         text-shadow: 2px 2px 3px #FF6F59;
@@ -8,17 +11,20 @@
         margin-top: 5rem;
         font-size: 2.5rem;
     }
+
     .h3-404{
         color: #E0E0E2;
         text-shadow: 2px 2px 3px #FF6F59;
         text-align: center;
         margin-top: 3rem;
     }
+
     a{
         color: #E0E0E2;
         text-decoration: none;
         
     }
+
     .bth-btn{
         border: 2px solid #FF6F59;
         background-color: #2C302E;
@@ -31,7 +37,6 @@
         font-size: 1rem;
         margin-top: 5rem;
         margin-bottom: 10rem;
-        
     }.bth-btn:hover{
         background-color: #FF6F59;
         cursor: pointer;
@@ -40,15 +45,18 @@
     
 }
 
+    // Desktop Styles
+    
 @media (min-width:600px) {
     .wrapper-404{
         margin-bottom: 22rem;
+
         .h2-404{
             margin-top: 15rem;
         }
-       
     }
 }
+    // Large displays 
 
 @media (min-width:1800px) {
     .wrapper-404{
