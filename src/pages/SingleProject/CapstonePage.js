@@ -4,7 +4,8 @@ import { AnimationOnScroll } from 'react-animation-on-scroll'
 import react, { useState, useEffect } from 'react'
 import Loader from '../../components/Loader'
 import acfFeature from '../../images/CP-ACF-min.JPG'
-
+import customLogin from '../../images/customLogin-min.JPG'
+import { Link } from 'react-router-dom';
 
 
 function CapstonePage() {
@@ -56,11 +57,12 @@ function CapstonePage() {
         <p className='faves-feature-p'>The Advanced Custom Fields allowed us to create fields to output the content of the site on all the pages in an organized manner. The fields were categorized by page and each field had a specific ID which helped in styling later on.  </p>
         <img className='slider-feature-img' src={acfFeature}></img>
         <h4 className='favesfeature-h4'>Custom WordPress Login Page</h4>
-        <p className='faves-feature-p'></p>
-
-  
+        <p className='faves-feature-p'>Using the LoginPress plugin we were able to use to WordPress customizer to design our own login page instead of opting for the default WordPress login page. It allowed us with complete freedom and manipulation of the page with multiple options to add on like a reCAPTCHA and welcome messages. </p>
+        <img className='slider-feature-img' src={customLogin}></img>
       </section>
       </AnimationOnScroll>
+
+      <Link to="/projects"><button className='projects-cta'>Back to projects</button></Link>
       
 
 
