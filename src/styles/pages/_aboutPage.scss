@@ -1,20 +1,25 @@
-//mobile styles
+
+    //Mobile styles
+
 .about-wrapper{
     text-align: center;
     animation: pulse;
-        animation-duration: 1s;
-        .load-wrapper{
-            position: fixed;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            background-color: #2c302e !important;
-        }
+    animation-duration: 1s;
+
+    // Loading animation styles
+    .load-wrapper{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #2c302e !important;
+    }
+
     .about-h1{
         color: #E0E0E2;
         text-shadow: 2px 2px 3px #FF6F59;
@@ -25,6 +30,7 @@
         margin-bottom: 0;
     
     }
+
     .about-para{
         color: #E0E0E2;
         background-color: #2C302E;
@@ -37,13 +43,15 @@
         margin-bottom: 7rem;
     
     }
+
     .about-tk-h3{
         color: #E0E0E2;
         text-shadow: 2px 2px 3px #FF6F59;
         text-align: center;
         font-size: 1.9rem;
-
     }
+
+    // Toolkit Styles
     .tk-wrapper{
         margin-bottom: 5rem;
         background-color: #2C302E;
@@ -52,19 +60,21 @@
         border: 2px solid #FF6F59;
         border-radius: 10px;
         width: 280px;
-    .tk-h4{
-        color: #E0E0E2;
-        font-size: 1.3rem;
+        .tk-h4{
+            color: #E0E0E2;
+            font-size: 1.3rem;
+        }
+        .tk-list{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            color: #E0E0E2;
+            margin-bottom: 1.5rem;
+        }
+        margin-bottom: 2rem;
     }
-    .tk-list{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        color: #E0E0E2;
-        margin-bottom: 1.5rem;
-    }
-    margin-bottom: 2rem;
-    }
+
+    // See My Work Button styles
     .projects-cta{
         border: 2px solid #FF6F59;
         background-color: #2C302E;
@@ -83,24 +93,25 @@
     
 }
 
-//desktop styles 
+    //Desktop styles 
 @media (min-width: 600px) {
+
     .about-wrapper{
-    .about-h1{
-        bottom: 0;
-        font-size: 3.4rem;
-        margin-bottom: 8rem;
-        margin-top: 8rem;
+        .about-h1{
+            bottom: 0;
+            font-size: 3.4rem;
+            margin-bottom: 8rem;
+            margin-top: 8rem;
+        }
+        .about-para{
+            width: 600px;
+        }
+        .tk-wrapper{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            gap: 0;
+            width: 400px;
+            padding: 0;
+        }
     }
-    .about-para{
-        width: 600px;
-    }
-    .tk-wrapper{
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 0;
-        width: 400px;
-        padding: 0;
-    }
-}
 }
