@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 function FooterNav() {
 
+  // bottom navigation tabs
   const bottomNavItems =[
     {title: 'Home',},
     {title: 'About'},

@@ -7,6 +7,8 @@ import react, { useState, useEffect } from 'react';
 import Loader from '../components/Loader';
 
 function ContactPage() {
+
+  // loading animation
   const [loading, setLoading] = useState(false);
 
     useEffect(() => {
@@ -17,9 +19,11 @@ function ContactPage() {
     }, []);
 
   return (
+
     <>
     {loading ? (
         <Loader /> ) : (
+
     <div className='contact-wrapper'>
 
       <h1 className='contact-h1'>Contact</h1>
@@ -36,8 +40,10 @@ function ContactPage() {
       </div>
 
     </div>
+
     )}
     </>
+    
   )
 }
 

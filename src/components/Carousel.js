@@ -7,6 +7,7 @@ import PortfolioCard from '../components/PortfolioCard'
 import CapstoneCard from '../components/CapstoneCard'
 
 function Carousel() {
+
   // Carousel configuration Settings
   const settings = {
     dots: true,
@@ -19,6 +20,7 @@ function Carousel() {
     slidesToScroll: 1,
   };
   return (
+    
     // Carousel wrapper with content inside
       <Slider {...settings}>
         <ProjectCard />

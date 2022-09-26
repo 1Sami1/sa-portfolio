@@ -9,6 +9,8 @@ import Loader from '../components/Loader';
 
 
 function LandingPage() {
+
+  // loading animation
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
@@ -18,14 +20,15 @@ function LandingPage() {
       }, 1000);
     }, []);
 
-  return (
 
+  return (
 
     <div className='lp-wrapper'>
 
       {loading ? (
         <Loader /> ) : (
       <>
+
       <section className='hero-sec'>
         <div className='top-bar'></div>
         <h1 className='hero-text'>Creative Developer</h1>
@@ -46,11 +49,12 @@ function LandingPage() {
           <Carousel />
         </section>
       </AnimationOnScroll>
+
       </>
        )}
-    </div>
 
-  
+    </div>
+    
   )
 }
 
