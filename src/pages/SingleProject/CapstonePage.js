@@ -32,7 +32,7 @@ function CapstonePage() {
         <AnimationOnScroll animateIn='animate__fadeInUp' animateOnce='true'>
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
-        <p className='overview-p'>Duke's Steakhouse is a fictional Fine-Dining establishment located in Vancouver. The website was developed as a final Capstone Project for my program. The website showcases the food and the atmosphere as well a clean design. </p>
+        <p className='overview-p'>As a collaborative team project, we decided to design and code a Wordpress website for a fictional restaurant Duke's Steakhouse. We went with a sleek and high-end look and feel to project the cuisine and atmosphere we desired for our restaurant.   </p>
         <h4 className='devstack-h4'>Development Stack</h4>
         <ul className='devstack-ul'>
           <li>WordPress</li>
