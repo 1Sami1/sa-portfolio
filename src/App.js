@@ -15,9 +15,12 @@ import Page404 from './pages/Page404';
 function App() {
   return (
     <BrowserRouter >
+
     <div className="App">
+
       <Header />
       <ScrollToTop />
+
       <main>
           <Routes>
               <Route path="/" element={<LandingPage/>} />
@@ -30,9 +33,12 @@ function App() {
               <Route path='*' element={<Page404 />}/>
           </Routes>
       </main>
+
       <FooterNav />
       <FooterText />
+
     </div>
+    
     </BrowserRouter>
   );
 }
