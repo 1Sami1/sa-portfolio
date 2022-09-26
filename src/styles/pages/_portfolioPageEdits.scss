@@ -1,5 +1,9 @@
+
+// Mobile Single Project Carousel Styles
 .projects-wrapper{
+
     .features-section, .design-section{
+
         .slider-port-pic{
             width: 300px !important;
             display: flex !important;
@@ -9,12 +13,18 @@
             border-radius: 20px;
             border: 3px solid #FF6F59;
         }
+
     }
+
 }
 
+// Desktop Single Project Carousel Styles
 @media (min-width: 600px){
+    
     .projects-wrapper{
+
         .features-section, .design-section{
+
             .slider-port-pic{
                 width: 590px !important;
             }
