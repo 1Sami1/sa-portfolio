@@ -1,8 +1,10 @@
-// Mobile styles
+  
+  // Mobile styles
 .contact-wrapper{
     margin-bottom: 10rem;
     animation: pulse;
-        animation-duration: 1s;
+    animation-duration: 1s;
+
    .contact-h1{
         color: #E0E0E2;
         text-shadow: 2px 2px 3px #FF6F59;
@@ -12,17 +14,19 @@
         font-size: 2.8rem;
         margin-bottom: 0;
    } 
+
    .contact-p{
-    color: #E0E0E2;
-    font-size: 1.4rem;
-    background-color: #2C302E;
-    width: 270px;
-    margin: 0 auto;
-    text-align: center;
-    border: 3px solid #FF6F59;
-    border-radius: 10px;
-    padding: 2rem;
+        color: #E0E0E2;
+        font-size: 1.4rem;
+        background-color: #2C302E;
+        width: 270px;
+        margin: 0 auto;
+        text-align: center;
+        border: 3px solid #FF6F59;
+        border-radius: 10px;
+        padding: 2rem;
    }
+
    .email-btn{
         border: 2px solid #FF6F59;
         background-color: #2C302E;
@@ -39,25 +43,27 @@
             text-decoration: none;
         }
    }.email-btn:hover{
-    background-color: #FF6F59;
+        background-color: #FF6F59;
         cursor: pointer;
         transition: border-color 0.5s, background-color 0.5s, color 0.5s;
    }
+    // Social Icons styles
    .icons-wrapper{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    margin-top: 4rem;
-    .social-icon{
-        color: #E0E0E2;
-        padding: 1rem;
-        width: 2em;
-        height: 2em;
-    }.social-icon:hover{
-        color: #FF6F59;
-        transition: border-color 0.3s, background-color 0.3s, color 0.3s;
-    }
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 4rem;
+        .social-icon{
+            color: #E0E0E2;
+            padding: 1rem;
+            width: 2em;
+            height: 2em;
+        }.social-icon:hover{
+            color: #FF6F59;
+            transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+        }
    }
+
 }
 
 // Desktop styles
@@ -76,8 +82,8 @@
             margin: 0 auto;
             text-align: center;
             border: 3px solid #FF6F59;
-    border-radius: 10px;
-           }
-     }
+            border-radius: 10px;
+        }
+    }
      
 }
