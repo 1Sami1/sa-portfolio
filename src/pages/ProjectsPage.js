@@ -5,6 +5,7 @@ import CapstoneCard from '../components/CapstoneCard'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
 import react, { useState, useEffect } from 'react';
 import Loader from '../components/Loader';
+import PassGenCard from '../components/PassGenCard'
 
 
 function ProjectsPage() {
@@ -38,6 +39,10 @@ function ProjectsPage() {
         
         <AnimationOnScroll animateIn='animate__bounceInUp' animateOnce='true'>
         <CapstoneCard />
+        </AnimationOnScroll>
+
+        <AnimationOnScroll animateIn='animate__bounceInUp' animateOnce='true'>
+        <PassGenCard />
         </AnimationOnScroll>
 
       </section>
