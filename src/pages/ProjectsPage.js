@@ -7,10 +7,21 @@ import react, { useState, useEffect } from 'react';
 import Loader from '../components/Loader';
 import PassGenCard from '../components/PassGenCard'
 import { Tabs } from 'react-simple-tabs-component'
+import ProfessionalTab from '../components/ProfTab';
+import PersonalTab from '../components/PersTab';
 import 'react-simple-tabs-component/dist/index.css'
 
 function ProjectsPage() {
-
+  const tabs = [
+    {
+      label: 'Professional',
+      Component: ProfessionalTab
+    },
+    {
+      label: 'Personal',
+      Component: PersonalTab
+    },
+  ]
   // Loading animation
   const [loading, setLoading] = useState(false);
   
@@ -31,7 +42,10 @@ function ProjectsPage() {
       <h1 className='projects-h1'>Projects</h1>
 
       <section className='projects-sec'>
-        <ProjectCard /> 
+
+          <Tabs tabs={tabs}/>
+
+        {/* <ProjectCard /> 
 
         <AnimationOnScroll animateIn='animate__bounceInUp' initiallyVisible='true' animateOnce='true'>
           <PortfolioCard />
@@ -43,7 +57,7 @@ function ProjectsPage() {
 
         <AnimationOnScroll animateIn='animate__bounceInUp' animateOnce='true'>
         <PassGenCard />
-        </AnimationOnScroll>
+        </AnimationOnScroll> */}
 
       </section>
       
