@@ -50,7 +50,7 @@ function PassGenPage() {
       <AnimationOnScroll animateIn='animate__fadeInUp' animateOnce='true'>
       <section className='overview-section'>
         <h3 className='overview-h3'>Overview</h3>
-        <p className='overview-p'>FilmFanDB is a movie database web app that allows users to find information about various movies, sort through different categories on the homepage and add movies to their favorites page! It is built with React.js and it collects real time data through The Movie Databse API.  </p>
+        <p className='overview-p'>  </p>
         <h4 className='devstack-h4'>Development Stack</h4>
         <ul className='devstack-ul'>
           <li>Javasrcipt/React</li>
