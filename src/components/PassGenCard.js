@@ -1,5 +1,5 @@
 import React from 'react'
-import previewPic from '../images/FFDB-finalMuV2.svg'
+import previewPic from '../images/PassGen-MuV2.svg'
 import { Link } from 'react-router-dom';
 
 
