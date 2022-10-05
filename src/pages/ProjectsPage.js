@@ -43,7 +43,7 @@ function ProjectsPage() {
 
       <section className='projects-sec'>
 
-          <Tabs tabs={tabs}/>
+          <Tabs tabs={tabs} className='tabs-wrapper'/>
 
         {/* <ProjectCard /> 
 
