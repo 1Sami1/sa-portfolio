@@ -4,6 +4,10 @@
   "homepage": "https://samiadli.com/",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.8",
+    "@mui/styled-engine-sc": "^5.10.6",
     "animate.css": "^4.1.1",
     "node-sass": "^7.0.1",
     "react": "^18.1.0",
@@ -12,10 +16,12 @@
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "react-simple-tabs-component": "^2.1.1",
     "react-slick": "^0.29.0",
     "react-spinners": "^0.13.4",
     "reactjs-bottom-navigation": "^1.0.4",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.6"
   },
   "scripts": {
     "start": "react-scripts start",
