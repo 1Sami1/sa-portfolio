@@ -17,7 +17,7 @@ function PassGenCard() {
           <p className='card-proj-tags'>React | Sass | Javascript</p>
           <p className='card-proj-p'>App that generates strong and secure passwords.</p>
 
-             <Link to='/FilmfanDB'><button className='card-btn'>See Project</button></Link>
+             <Link to='/password-generator'><button className='card-btn'>See Project</button></Link>
       </div>
 
     </div>

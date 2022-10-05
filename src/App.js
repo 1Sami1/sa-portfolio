@@ -11,6 +11,7 @@ import PortfolioPage from './pages/SingleProject/PortfolioPage';
 import CapstonePage from './pages/SingleProject/CapstonePage';
 import ScrollToTop from './components/ScrollToTop';
 import Page404 from './pages/Page404';
+import PassGenPage from './pages/SingleProject/PassGenPage';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
               <Route path="/Portfolio" element={<PortfolioPage />}/>
               <Route path="/Capstone" element={<CapstonePage />}/>
               <Route path='*' element={<Page404 />}/>
+              <Route path='/password-generator' element={<PassGenPage />}/>
           </Routes>
       </main>
 
