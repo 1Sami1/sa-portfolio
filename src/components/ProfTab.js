@@ -1,22 +1,22 @@
 import ProjectCard from "./FilmfanCard"
 import PortfolioCard from "./PortfolioCard"
 import CapstoneCard from "./CapstoneCard"
-import { AnimationOnScroll } from 'react-animation-on-scroll'
+import Fade from 'react-reveal/Bounce';
 
 const ProfessionalTab = () => {
     return(
         <div className="prof-tab">
-            <AnimationOnScroll animateIn='animate__bounceInUp' initiallyVisible='true' animateOnce='true'>
+            <Fade>
                 <ProjectCard /> 
-            </AnimationOnScroll>
+            </Fade>
 
-            <AnimationOnScroll animateIn='animate__bounceInUp' initiallyVisible='true' animateOnce='true'>
+            <Fade>
                 <PortfolioCard />
-            </AnimationOnScroll>
+            </Fade>
             
-            <AnimationOnScroll animateIn='animate__bounceInUp' initiallyVisible='true' animateOnce='true'>
+            <Fade>
                 <CapstoneCard />
-            </AnimationOnScroll>
+            </Fade>
             
 
 

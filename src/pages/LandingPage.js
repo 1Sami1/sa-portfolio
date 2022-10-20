@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Carousel from '../components/Carousel';
 import 'animate.css'
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import react, { useState, useEffect } from 'react';
 import Loader from '../components/Loader';
 import Bounce from 'react-reveal/Bounce';

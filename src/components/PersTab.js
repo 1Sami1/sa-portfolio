@@ -1,15 +1,14 @@
-import ProjectCard from "./FilmfanCard"
-import PortfolioCard from "./PortfolioCard"
+
 import PassGenCard from "./PassGenCard"
-import { AnimationOnScroll } from 'react-animation-on-scroll'
+import Fade from 'react-reveal/Bounce';
 
 
 const PersonalTab = () => {
     return(
         <div className="pers-tab">
-            <AnimationOnScroll animateIn='animate__bounceInUp' initiallyVisible='true' animateOnce='true'>
+            <Fade>
                 <PassGenCard />
-            </AnimationOnScroll>
+            </Fade>
                 
 
 
