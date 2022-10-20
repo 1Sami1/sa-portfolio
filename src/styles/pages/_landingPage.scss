@@ -3,7 +3,6 @@
 // Hero section Mobile Styles
 .hero-sec{
     position: relative;
-    top: 1rem;
     height: 88vh;
     z-index: 5;
 
@@ -40,7 +39,7 @@
     .hero-sec{
         z-index: 6;
         position: relative;
-        top: 12rem;
+        top: 5rem;
 
         .hero-text{
             color: #E0E0E2;
@@ -62,14 +61,15 @@
 @media (min-width: 1187px) {
 
     .hero-sec{
-        top: 12rem;
+        top: 5rem;
+        margin-bottom: 8rem;
 
         .hero-text{
             font-size: 7rem;
         }
 
         .bottom-bar, .top-bar{
-            width: 830px;
+            width: 600px;
         }
     }
     
@@ -77,14 +77,15 @@
 
 @media (min-width: 1280px) {
     .hero-sec{
-        top: 12rem;
+        top: 8rem;
+        margin-bottom: 8rem;
 
         .hero-text{
             font-size: 8rem;
         }
 
         .bottom-bar, .top-bar{
-            width: 830px;
+            width: 650px;
         }
     }
 
