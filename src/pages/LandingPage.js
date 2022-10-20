@@ -5,6 +5,7 @@ import 'animate.css'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import react, { useState, useEffect } from 'react';
 import Loader from '../components/Loader';
+import Bounce from 'react-reveal/Bounce';
 
 
 
@@ -35,20 +36,20 @@ function LandingPage() {
         <div className='bottom-bar'></div>
       </section>
 
-      <AnimationOnScroll animateIn='animate__bounceInLeft' animateOnce='true'>
+      <Bounce left>
         <section className='about-sec'>
           <h2 className='about-sec-h2'>About</h2>
           <p className='about-sec-p'>I'm Sami! I am a Front-End Developer based in Vancouver, BC.<br/> I take pride in creating excellent designs! </p>
           <Link to="/about"><button className='about-cta' to='/about' >More about me</button></Link>
         </section>
-      </AnimationOnScroll>
+      </Bounce>
     
-      <AnimationOnScroll animateIn='animate__bounceInRight' animateOnce='true'>
+      <Bounce right>
         <section className='work-sec'>
           <h2 className='work-sec-h2'>Featured Work</h2>
           <Carousel />
         </section>
-      </AnimationOnScroll>
+      </Bounce>
 
       </>
        )}
