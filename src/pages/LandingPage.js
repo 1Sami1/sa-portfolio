@@ -30,9 +30,9 @@ function LandingPage() {
       <>
 
       <section className='hero-sec'>
-        <div className='top-bar'></div>
+        {/* <div className='top-bar'></div> */}
         <h1 className='hero-text'>Creative <br /> Developer</h1>
-        <div className='bottom-bar'></div>
+        {/* <div className='bottom-bar'></div> */}
       </section>
 
       <Bounce left>
