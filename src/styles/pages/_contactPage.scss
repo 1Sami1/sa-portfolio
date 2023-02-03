@@ -47,6 +47,7 @@
         transition: border-color 0.5s, background-color 0.5s, color 0.5s;
    }
     // Social Icons styles
+
    .icons-wrapper{
         margin: 0 auto;
         display: flex;
@@ -54,9 +55,9 @@
         margin-top: 4rem;
         .social-icon{
             color: #E0E0E2;
-            padding: 1rem;
             width: 2em;
             height: 2em;
+            margin: 1rem;
         }.social-icon:hover{
             color: #FF6F59;
             transition: border-color 0.3s, background-color 0.3s, color 0.3s;

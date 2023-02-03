@@ -15,7 +15,7 @@ function AboutPage() {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
-      }, 1000);
+      }, 600);
     }, []);
 
   return (

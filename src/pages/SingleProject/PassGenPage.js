@@ -16,7 +16,7 @@ function PassGenPage() {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
-      }, 1000);
+      }, 600);
     }, []);
 
   const settings = {
